@@ -5,4 +5,4 @@ CIDO-COVID-19 is ontology of COVID-19 covering disease, diagnosis, etiology, vir
 
 The content of the file cido-covid-19(core).owl is the core term about COVID-19.
 
-The file cido-covid-19.owl contains the full version of the COVID-19 ontology.11
+The file cido-covid-19.owl contains the full version of the COVID-19 ontology.
