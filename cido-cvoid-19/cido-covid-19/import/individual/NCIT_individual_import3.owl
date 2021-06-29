@@ -1,0 +1,1508 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/cido-covid-19/external/NCIT_individual_import3.owl#"
+     xml:base="http://purl.obolibrary.org/obo/cido-covid-19/external/NCIT_individual_import3.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cido-covid-19/external/NCIT_individual_import3.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P350">
+        <rdfs:label>Chemical_Formula</rdfs:label>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Chemical Formula</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym>Chemical Formula</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A property representing a concise expression about the atoms that constitute a particular chemical compound.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P350</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Chemical_Formula</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Chemical_Formula</obo:NCIT_P108>
+        <obo:NCIT_P322>CRCH</obo:NCIT_P322>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P175">
+        <rdfs:label>NSC Number</rdfs:label>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>NSC Number</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NSC_Code</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A property representing a numeric identifier for substances submitted to the National Cancer Institute (NCI) for testing and evaluation. It is named after the Cancer Chemotherapy National Service Center (CCNSC), created in 1955, which originally ran the testing program and assigned these numbers. The testing program and repository is now run by the NCI Developmental Therapeutics Program (DTP). Assignment of NSC numbers was never done in a way that would guarantee one and only one NSC number would be assigned to a particular substance.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>NSC_Number_Property</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>NSC Number</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>NSC_Number</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>NSC Number</obo:NCIT_P107>
+        <obo:NCIT_NHC0>P175</obo:NCIT_NHC0>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
+        <rdfs:label>DesignNote</rdfs:label>
+        <oboInOwl:hasExactSynonym>DesignNote</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>DesignNote</obo:NCIT_P107>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0>P98</obo:NCIT_NHC0>
+        <obo:IAO_0000115>A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
+        <obo:NCIT_P108>DesignNote</obo:NCIT_P108>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P330">
+        <rdfs:label>PDQ_Closed_Trial_Search_ID</rdfs:label>
+        <oboInOwl:hasExactSynonym>PDQ_Closed_Trial_Search_ID</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0>P330</obo:NCIT_NHC0>
+        <obo:NCIT_P107>PDQ Closed Trial Search ID</obo:NCIT_P107>
+        <obo:NCIT_P108>PDQ_Closed_Trial_Search_ID</obo:NCIT_P108>
+        <obo:IAO_0000115>A property representing the identifier used by NCI&#39;s Cancer.gov web site to retrieve PDQ Clinical Trials data for closed trials that involved specific clinical trials agents. While the identifier is the same for both open and closed trials two properties are used to support requirements of the current browser interface, as well as the possibility of providing values where only closed trials will be retrieved.</obo:IAO_0000115>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P210">
+        <rdfs:label>CAS_Registry</rdfs:label>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0>P210</obo:NCIT_NHC0>
+        <obo:NCIT_P108>CAS_Registry</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>CAS_Registry</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>CAS Registry Number</obo:NCIT_P107>
+        <obo:IAO_0000115>A property representing the Chemical Abstracts Service number for a Chemical or Drug.</obo:IAO_0000115>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in subset</rdfs:label>
+        <oboInOwl:hasExactSynonym>Concept_In_Subset</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0">
+        <rdfs:label>code</rdfs:label>
+        <oboInOwl:hasExactSynonym>code</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A property representing a concept unique identifier within the NCI Enterprise Vocabulary Service&#39;s NCI Thesaurus.</obo:IAO_0000115>
+        <obo:NCIT_P108>code</obo:NCIT_P108>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0>NHC0</obo:NCIT_NHC0>
+        <protege:readOnly>true</protege:readOnly>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P319">
+        <rdfs:label>FDA_UNII_Code</rdfs:label>
+        <obo:NCIT_P107>FDA UNII Code</obo:NCIT_P107>
+        <obo:NCIT_P108>FDA_UNII_Code</obo:NCIT_P108>
+        <obo:IAO_0000115>A property representing the FDA Unique Ingredient Identifier, a key component of the federal drug information model.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>FDA_UNII_Code</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>P319</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322">
+        <rdfs:label>Contributing_Source</rdfs:label>
+        <obo:NCIT_P107>Contributing Source</obo:NCIT_P107>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:IAO_0000115>A property is used to indicate when a non-EVS entity has contributed to, and has a stake in, a concept. This is used where such entities, within or outside NCI, have indicated the need to be able to track their own concepts. A single concept can have multiple instances of this property if multiple entities have such a defined stake.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Contributing_Source</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>P322</obo:NCIT_NHC0>
+        <obo:NCIT_P108>Contributing_Source</obo:NCIT_P108>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_Contributing_Source-enum"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366">
+        <rdfs:label>Legacy Concept Name</rdfs:label>
+        <oboInOwl:hasExactSynonym>Legacy Concept Name</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A property representing a retired unique concept identifier created and stored as Concept Name by legacy EVS software. Use of these values was long discouraged, but continued as late as 2009 when creation of new values ceased and Concept Name was retired. Legacy values are intended solely to help resolve and update earlier coding.</obo:IAO_0000115>
+        <obo:NCIT_P108>Legacy Concept Name</obo:NCIT_P108>
+        <protege:readOnly>true</protege:readOnly>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Legacy_Concept_Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>P366</obo:NCIT_NHC0>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <oboInOwl:hasExactSynonym>DEFINITION</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A7">
+        <rdfs:label>Has_Target</rdfs:label>
+        <oboInOwl:hasExactSynonym>Has_Target</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>Has Target</obo:NCIT_P107>
+        <obo:IAO_0000115>An association that connects a drug or other agent to a clinically intended, molecular-scale target. The target value may be a gene, gene product, anatomic structure, biological process, or other concept, where the effect of the agent on the target is thought to be of therapeutic, diagnostic, or other clinical relevance to a disease process. The effect is most often direct, as defined at a molecular scale, but may also be indirect and/or defined at a larger scale.</obo:IAO_0000115>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Has_Target</obo:NCIT_P108>
+        <obo:NCIT_NHC0>A7</obo:NCIT_NHC0>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A5">
+        <rdfs:label>Has_Salt_Form</rdfs:label>
+        <obo:NCIT_P98>USAGE NOTE: A salt form of a drug consists of 2 parts, one acidic and one basic group that are readily disassociated in liquid phase. Salt forms are either salts of strong acids and basic drugs (e.g. Atropine Sulfate, Cetirizine Hydrochloride) or salts of strong bases and acidic drugs (Allopurinol Sodium). This association is usually used in conjunction with Has_Free_Acid_Or_Base_Form.</obo:NCIT_P98>
+        <obo:NCIT_P108>Has_Salt_Form</obo:NCIT_P108>
+        <obo:NCIT_P107>Has Salt Form</obo:NCIT_P107>
+        <obo:NCIT_NHC0>A5</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Has_Salt_Form</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:IAO_0000115>An association that connects the salt form of a drug with its free acid or free base.</obo:IAO_0000115>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has exact synonym</rdfs:label>
+        <obo:IAO_0000115>A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Synonym with Source Data</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>FULL_SYN</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325">
+        <rdfs:label>ALT_DEFINITION</rdfs:label>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>ALT_DEFINITION</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>[source] Definition</obo:NCIT_P107>
+        <obo:NCIT_P108>ALT_DEFINITION</obo:NCIT_P108>
+        <obo:IAO_0000115>A property representing the English language definition of a concept from a source other than NCI.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P325</obo:NCIT_NHC0>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_textArea"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106">
+        <rdfs:label>Semantic_Type</rdfs:label>
+        <oboInOwl:hasExactSynonym>Semantic_Type</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:IAO_0000115>A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</obo:IAO_0000115>
+        <obo:NCIT_P107>Semantic Type</obo:NCIT_P107>
+        <obo:NCIT_P108>Semantic_Type</obo:NCIT_P108>
+        <obo:NCIT_NHC0>P106</obo:NCIT_NHC0>
+        <obo:NCIT_P98>In general, applying semantic types aids in allowing users (or computer programs) to draw conclusions about concepts by virtue of the categories to which they have been assigned.  We use a set of semantic types developed for the UMLS Metathesaurus. There are currently 134 semantic types in the UMLS.</obo:NCIT_P98>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_Semantic_Type-enum"/>
+    </owl:AnnotationProperty>
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </rdf:Description>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P302">
+        <rdfs:label>Accepted_Therapeutic_Use_For</rdfs:label>
+        <obo:NCIT_P108>Accepted_Therapeutic_Use_For</obo:NCIT_P108>
+        <obo:NCIT_P107>Accepted Therapeutic Use For</obo:NCIT_P107>
+        <obo:IAO_0000115>A property representing a disease or condition for which this drug is an accepted treatment. Used in the Drug, Food, Chemical or Biomedical Material branch.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P302</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Accepted_Therapeutic_Use_For</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P368">
+        <rdfs:label>CHEBI_ID</rdfs:label>
+        <obo:NCIT_NHC0>P368</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>CHEBI_ID</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>CHEBI_ID</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A property representing that a concept in the &#39;Drug, Food, Chemical or Biomedical Material&#39; branch of the NCI thesaurus maps to a specific concept in the EBI Chemical Entities of Biological Interest (CHEBI) database.</obo:IAO_0000115>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P208">
+        <rdfs:label>NCI_META_CUI</rdfs:label>
+        <oboInOwl:hasExactSynonym>NCI_META_CUI</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:IAO_0000115>A property representing the concept unique identifier (CUI) for those concepts that appear in NCI Metathesaurus but not in the National Library of Medicine Unified Medical Language System (NLM UMLS).</obo:IAO_0000115>
+        <obo:NCIT_P108>NCI_META_CUI</obo:NCIT_P108>
+        <obo:NCIT_P107>NCI Metathesaurus CUI</obo:NCIT_P107>
+        <obo:NCIT_NHC0>P208</obo:NCIT_NHC0>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P329">
+        <rdfs:label>PDQ_Open_Trial_Search_ID</rdfs:label>
+        <oboInOwl:hasExactSynonym>PDQ_Open_Trial_Search_ID</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>P329</obo:NCIT_NHC0>
+        <obo:IAO_0000115>A property representing the identifier used by NCI&#39;s Cancer.gov Web site to retrieve PDQ Clinical Trials data for open trials involving specific clinical trials agents. While the identifier is the same for both open and closed trials two properties are used to support requirements of the current browser interface, as well as the possibility of providing values where only open trials will be retrieved.</obo:IAO_0000115>
+        <obo:NCIT_P107>PDQ Open Trial Search ID</obo:NCIT_P107>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>PDQ_Open_Trial_Search_ID</obo:NCIT_P108>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
+        <rdfs:label>Display_Name</rdfs:label>
+        <oboInOwl:hasExactSynonym>Display Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>Display Name</obo:NCIT_P107>
+        <obo:NCIT_P108>Display_Name</obo:NCIT_P108>
+        <obo:IAO_0000115>A property representing an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Display_Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0>P107</obo:NCIT_NHC0>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#readOnly">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108">
+        <rdfs:label>Preferred_Name</rdfs:label>
+        <oboInOwl:hasExactSynonym>Preferred Term</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Preferred Name</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym>Preferred Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>P108</obo:NCIT_NHC0>
+        <obo:NCIT_P108>Preferred_Name</obo:NCIT_P108>
+        <obo:IAO_0000115>A property representing the word or phrase that NCI uses by preference to refer to the concept.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Preferred_Name</oboInOwl:hasExactSynonym>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207">
+        <rdfs:label>UMLS_CUI</rdfs:label>
+        <obo:NCIT_NHC0>P207</obo:NCIT_NHC0>
+        <obo:NCIT_P108>UMLS_CUI</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>UMLS_CUI</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:IAO_0000115>A property representing the concept unique identifier (CUI) assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.</obo:IAO_0000115>
+        <obo:NCIT_P107>UMLS CUI</obo:NCIT_P107>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_Contributing_Source-enum -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCIT_Contributing_Source-enum"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_Semantic_Type-enum -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCIT_Semantic_Type-enum"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_textArea -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCIT_textArea"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_R122 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_R122">
+        <rdfs:label>Chemical_Or_Drug_Is_Metabolized_By_Enzyme</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_R124 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_R124">
+        <rdfs:label>Chemical_Or_Drug_Has_Mechanism_Of_Action</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_R125 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_R125">
+        <rdfs:label>Chemical_Or_Drug_Has_Physiologic_Effect</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_R146 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_R146">
+        <rdfs:label>Chemical_Or_Drug_Affects_Gene_Product</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_R44 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_R44">
+        <rdfs:label>Gene_Product_Has_Chemical_Classification</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_R49 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_R49">
+        <rdfs:label>Gene_Product_Expressed_In_Tissue</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_R72 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_R72">
+        <rdfs:label>Chemical_Or_Drug_Affects_Cell_Type_Or_Tissue</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C123775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C123775">
+        <rdfs:label>Mosedipimod</rdfs:label>
+        <oboInOwl:hasExactSynonym>9,12-Octadecadienoic acid (9Z,12Z)-, 1-((Acetyloxy)methyl)-2-((1-oxohexadecyl)oxy)ethyl Ester</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P210>221139-79-3</obo:NCIT_P210>
+        <obo:NCIT_P207>C1455477</obo:NCIT_P207>
+        <obo:NCIT_NHC0>C123775</obo:NCIT_NHC0>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Mosedipimod</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P330>775590</obo:NCIT_P330>
+        <obo:NCIT_P329>775590</obo:NCIT_P329>
+        <oboInOwl:hasExactSynonym>1-Palmitoyl-2-linoleoyl-3-acetyl-rac-glycerol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>EC-18</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A synthetic version of a monoacetyldiacylglyceride naturally occurring in various seed oils, bovine udder and milk fat, antlers of sika deer, with potential antineoplastic activity. Although the exact mechanism of action through which EC-18 exerts its pharmacological effect has yet to be fully identified, upon administration, mosedipimod stimulates calcium influx into T-lymphocytes and increases the production of various cytokines, including interleukin (IL) -2, IL-4, IL-12, interferon-gamma (IFN-g), and granulocyte-macrophage colony-stimulating factor (GM-CSF). This stimulates the proliferation of hematopoietic stem cells, bone marrow stromal cells and immune cells, including T- and B-lymphocytes, dendritic cells (DCs) and macrophages. Therefore, EC18 may stimulate the immune system to target cancer cells. In addition, EC-18 enhances the cytolytic activity of natural killer (NK) cells and suppresses the expression of the transmembrane protein tumor cell toll-like receptor 4 (TLR-4) on cancer cells. As activation of TLR-4 enhances immunosuppression and stimulates cancer cell growth, blocking TLR-4 expression suppresses tumor cell proliferation.</obo:IAO_0000115>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>MOSEDIPIMOD</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P319>88928BS57E</obo:NCIT_P319>
+        <obo:NCIT_P108>Mosedipimod</obo:NCIT_P108>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128784"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157712"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C176424"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C125903 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C125903">
+        <rdfs:label>CD24 Extracellular Domain-IgG1 Fc Domain Recombinant Fusion Protein CD24Fc</rdfs:label>
+        <obo:IAO_0000115>A recombinant fusion protein composed of the extracellular domain of the mature human glycoprotein CD24 linked to a human immunoglobulin G1 (IgG1) Fc domain, with potential immune checkpoint inhibitory, anti-inflammatory and antineoplastic activities. Upon administration, the CD24 extracellular domain-IgG1 Fc domain recombinant fusion protein CD24Fc binds to injured cell components, also called DAMPs (Danger-Associated Molecular Patterns), thereby preventing the interaction of DAMPs with toll-like receptors (TLRs) and inhibiting both nuclear factor-kappa B (NFkB) activation and secretion of inflammatory cytokines. In addition, CD24Fc binds to and activates Siglec G/10, a sialic acid-binding immunoglobulin-type lectin, and stimulates SHP-1-mediated inhibitory signaling, while also preventing NFkB activation and secretion of inflammatory mediators, which further prevents inflammatory responses. DAMPs activate the innate immune system. CD24 binds to both DAMPs and Siglec G/10 to regulate immune responses.CD24/Siglec G/10 interaction plays a key role in a number of immune-mediated diseases including graft-versus-host disease (GvHD), multiple sclerosis and rheumatoid arthritis.</obo:IAO_0000115>
+        <obo:NCIT_P208>CL504552</obo:NCIT_P208>
+        <obo:NCIT_P108>CD24 Extracellular Domain-IgG1 Fc Domain Recombinant Fusion Protein CD24Fc</obo:NCIT_P108>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P330>778856</obo:NCIT_P330>
+        <obo:NCIT_P107>CD24 Extracellular Domain-IgG1 Fc Domain Recombinant Fusion Protein CD24Fc</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym>CD24Fc CD24IgG</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C125903</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>CD24 Extracellular Domain-IgG1 Fc Domain Recombinant Fusion Protein CD24Fc</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CD24Fc</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P329>778856</obo:NCIT_P329>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128784"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C176424"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C127012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C127012">
+        <rdfs:label>Baricitinib</rdfs:label>
+        <obo:NCIT_P329>781527</obo:NCIT_P329>
+        <obo:NCIT_P107>Baricitinib</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym>INCB028050</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P330>781527</obo:NCIT_P330>
+        <obo:NCIT_P207>C4044947</obo:NCIT_P207>
+        <obo:NCIT_P108>Baricitinib</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>BARICITINIB</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C127012</obo:NCIT_NHC0>
+        <obo:NCIT_P319>ISP4442I3Y</obo:NCIT_P319>
+        <oboInOwl:hasExactSynonym>LY 3009104</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>INCB 028050</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>An orally bioavailable inhibitor of Janus kinases 1 and 2 (JAK1/2), with potential anti-inflammatory, immunomodulating and antineoplastic activities. Upon administration, baricitinib binds to JAK1/2, which inhibits JAK1/2 activation and leads to the inhibition of the JAK-signal transducers and activators of transcription (STAT) signaling pathway. This decreases the production of inflammatory cytokines and may prevent an inflammatory response. In addition, baricitinib may induce apoptosis and reduce proliferation of JAK1/2-expressing tumor cells. JAK kinases are intracellular enzymes involved in cytokine signaling, inflammation, immune function and hematopoiesis; they are also upregulated and/or mutated in various tumor cell types.</obo:IAO_0000115>
+        <obo:NCIT_P210>1187594-09-7</obo:NCIT_P210>
+        <oboInOwl:hasExactSynonym>Baricitinib</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>3-Azetidineacetonitrile, 1-(Ethylsulfonyl)-3-(4-(7H-pyrrolo(2,3-d)pyrimidin-4-yl)-1H-pyrazol-1-yl)-</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>LY3009104</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128784"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157712"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C176424"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C137824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C137824">
+        <rdfs:label>Leronlimab</rdfs:label>
+        <obo:IAO_0000115>A humanized immunoglobulin (Ig) G4 monoclonal antibody against CC chemokine receptor 5 (CCR5; CD195), with potential activity as a human immunodeficiency virus (HIV) entry blocker and potential protective activity against graft-versus-host disease (GvHD). Upon administration, leronlimab targets and binds to CCR5 expressed on T-cells. This blocks HIV cell entry, which prevents HIV infection and/or reduces HIV viral load. In addition, blocking CCR5 by PRO 140 decreases CCR5-mediated signaling and the CCR5-induced migration of donor cells into tissues after an allogeneic hematopoietic cell transplantation (HCT). Blocking CCR5 may therefore prevent or reduce GvHD. CCR5, a co-receptor needed for HIV cell entry, plays a key role in immunomodulation. Expressed on monocytes, activated T-cells and dendritic cells (DCs), CCR5 can regulate chemotaxis. Lymphocyte trafficking via chemokine receptors, such as CCR5, and recruitment to target organs, plays a critical role in alloreactive responses.</obo:IAO_0000115>
+        <obo:NCIT_P329>790146</obo:NCIT_P329>
+        <obo:NCIT_P319>Y1J4NP8FF0</obo:NCIT_P319>
+        <obo:NCIT_P210>674782-26-4</obo:NCIT_P210>
+        <obo:NCIT_P207>C3179326</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>LERONLIMAB</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Leronlimab</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C137824</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>PRO 140</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>Leronlimab</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym>WHO 10751</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PA14</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PRO140</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PRO-140</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P330>790146</obo:NCIT_P330>
+        <obo:NCIT_P108>Leronlimab</obo:NCIT_P108>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C176424"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C147125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C147125">
+        <rdfs:label>Abivertinib</rdfs:label>
+        <oboInOwl:hasExactSynonym>AC-0010</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>AC 0010</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Abivertinib</obo:NCIT_P108>
+        <obo:IAO_0000115>An orally available, irreversible, epidermal growth factor receptor (EGFR) mutant-selective inhibitor, with potential antineoplastic activity. Upon oral administration, abivertinib covalently binds to and inhibits the activity of mutant forms of EGFR, including the drug-resistant T790M EGFR mutant, which prevents signaling mediated by mutant forms of EGFR. This may both induce cell death and inhibit tumor growth in EGFR-mutated tumor cells. EGFR, a receptor tyrosine kinase that is mutated in a variety of cancers, plays a key role in tumor cell proliferation and tumor vascularization. As this agent is selective towards mutant forms of EGFR, its toxicity profile may be reduced when compared to non-selective EGFR inhibitors, which also inhibit wild-type EGFR.</obo:IAO_0000115>
+        <obo:NCIT_P208>CL545072</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym>Abivertinib</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>AC0010</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C147125</obo:NCIT_NHC0>
+        <obo:NCIT_P210>1557267-42-1</obo:NCIT_P210>
+        <obo:NCIT_P319>CER0OPG92L</obo:NCIT_P319>
+        <oboInOwl:hasExactSynonym>ABIVERTINIB</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:NCIT_A5 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C169756"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C152740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C152740">
+        <rdfs:label>Tridecactide</rdfs:label>
+        <obo:NCIT_P210>22006-64-0</obo:NCIT_P210>
+        <oboInOwl:hasExactSynonym>EK-12</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tridecactide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>alpha-1-13-Corticotropin, HumanL-seryl-L-tyrosyl-L-seryl-L-methionyl-L-glutamyl-L-histidyl-L-phenylalanyl-L-arginyl-L-tryptophylglycyl-L-lysyl-L-prolyl-L-valine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>alpha-Corticotropin 1-13</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A synthetic 13-amino acid peptide analogue of the naturally occurring alpha-melanocyte stimulating hormone (a-MSH) and derived from proteolytic cleavage of adrenocorticotropic hormone (ACTH), with potential analgesia, antipyretic, antioxidative, cytoprotective, anti-inflammatory and immunomodulating activities. Upon administration, tridecactide mimics the action of a-MSH, binds to melanocortin receptors (MC-Rs) and stimulates melanocytes to increase the production and release of melanin. In addition, tridecactide&#39;s anti-inflammatory effects are through the activation of MC-Rs that are expressed in a number of tissues, such as peripheral immune cells and hypothalamic neurons, and affects various pathways regulating inflammatory responses. Specifically, tridecactide inhibits the activation of nuclear factor-kappa B (NF-κB), inhibits the expression of pro-inflammatory cytokines and adhesion molecule expression, prevents T-cell proliferation and inflammatory cell migration. This agent may also suppress pro-inflammatory non-cytokine regulators such as nitric oxide (NO), prostaglandin E (PGE), and reactive oxygen species (ROS), and induces the expression of interleukin (IL) 10.</obo:IAO_0000115>
+        <obo:NCIT_P319>T7PQK27HTI</obo:NCIT_P319>
+        <obo:NCIT_P108>Tridecactide</obo:NCIT_P108>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P208>CL553944</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym>TRIDECACTIDE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>alpha1-13-Corticotropin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ACTH (1-13)</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C152740</obo:NCIT_NHC0>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C156270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C156270">
+        <rdfs:label>Subasumstat</rdfs:label>
+        <oboInOwl:hasExactSynonym>SUBASUMSTAT</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P330>795544</obo:NCIT_P330>
+        <obo:NCIT_P108>Subasumstat</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>TAK-981</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C156270</obo:NCIT_NHC0>
+        <obo:IAO_0000115>A small molecule inhibitor of sumoylation, with potential immune-activating and antineoplastic activities. Upon intravenous administration, subasumstat targets and covalently binds to the small ubiquitin-like modifier (SUMO; small ubiquitin-related modifier) protein, forming an adduct with SUMO protein (subasumstat-SUMO adduct). This prevents the transfer of SUMO from the SUMO-activating enzyme (SAE) to SUMO-conjugating enzyme UBC9. This prevents SUMO conjugation to lysine residues on target proteins and abrogates many sumoylated protein-mediated cellular processes that play key roles in tumor cells, including proliferation, DNA repair, metastasis and survival. In addition, by preventing sumoylation, subasumstat is able to increase the production of type 1 interferon (IFN), thereby increasing type 1 IFN-mediated signaling, activating innate effector cells and enhancing the antitumor innate immune responses. This may further increase tumor cell killing. Sumoylation, a post-translational modification that attaches the SUMO protein to target proteins, plays a key role in regulating their activity, function, subcellular localization and stability.  Sumoylation also plays a key role in inhibiting innate immune responses, specifically by inhibiting the pattern recognition receptor (PRR) pathway and preventing type 1 IFN expression. Abnormal sumoylation of target proteins is associated with many cancers.</obo:IAO_0000115>
+        <obo:NCIT_P208>CL562995</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym>Subasumstat</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P319>XQ43H3V6M1</obo:NCIT_P319>
+        <obo:NCIT_P329>795544</obo:NCIT_P329>
+        <obo:NCIT_P107>Subasumstat</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym>TAK981</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TAK 981</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128784"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157712"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C176424"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C166892 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C166892">
+        <rdfs:label>Elbasvir</rdfs:label>
+        <obo:NCIT_P208>CL972140</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym>Elbasvir</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Chemical Viewed Functionally</obo:NCIT_P106>
+        <obo:NCIT_P319>632L571YDK</obo:NCIT_P319>
+        <oboInOwl:hasExactSynonym>ELBASVIR</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P108>Elbasvir</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C166892</obo:NCIT_NHC0>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C172613 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C172613">
+        <rdfs:label>Galidesivir</rdfs:label>
+        <obo:NCIT_P106>Organic Chemical</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>GALIDESIVIR</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C172613</obo:NCIT_NHC0>
+        <obo:NCIT_P208>CL1406700</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym>Immucillin-A</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BCX-4430</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Galidesivir</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P210>249503-25-1</obo:NCIT_P210>
+        <obo:IAO_0000115>An adenosine analog and RNA polymerase inhibitor, with potential broad-spectrum antiviral activity. Upon administration, galidesivir is metabolized to its monophosphate form, which is then converted into the active triphosphate nucleotide. Galidesivir triphosphate binds to viral RNA-dependent RNA polymerase (RdRp) and gets incorporated into the growing viral RNA strand, which leads to premature chain termination. This prevents viral transcription and replication.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>BCX4430</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P319>OLF97F86A7</obo:NCIT_P319>
+        <oboInOwl:hasExactSynonym>BCX 4430</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P108>Galidesivir</obo:NCIT_P108>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C172616 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C172616">
+        <rdfs:label>Zavegepant</rdfs:label>
+        <oboInOwl:hasExactSynonym>BMS742413</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BHV3500</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Zavegepant</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Zavegepant</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>4-(1,2-Dihydro-2-oxo-3-quinolinyl)-N-((1R)-1-((7-methyl-1H-indazol-5-yl)methyl)-2-(4-(1-methyl-4-piperidinyl)-1-piperazinyl)-2-oxoethyl)-1-piperidinecarboxamide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ZAVEGEPANT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BHV 3500</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P319>ODU3ZAZ94J</obo:NCIT_P319>
+        <oboInOwl:hasExactSynonym>1-Piperidinecarboxamide, 4-(1,2-Dihydro-2-oxo-3-quinolinyl)-N-((1R)-1-((7-methyl-1H-indazol-5-yl)methyl)-2-(4-(1-methyl-4-piperidinyl)-1-piperazinyl)-2-oxoethyl)-</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:IAO_0000115>A highly soluble small molecule calcitonin gene related peptide (CGRP) receptor antagonist, with potential analgesic and immunomodulating activities. Upon administration, zavegepant targets, binds to and inhibits the activity of CGRP receptors located on mast cells in the brain. This may inhibit neurogenic inflammation caused by trigeminal nerve release of CGRP. In addition, by blocking the CGRP receptors located in smooth muscle cells within vessel walls, zavegepant inhibits the pathologic dilation of intracranial arteries. Zavegepant, by blocking the CGRP receptors, also suppresses the transmission of pain by inhibiting the central relay of pain signals from the trigeminal nerve to the caudal trigeminal nucleus. Altogether, this may relieve migraine. As CGRP receptors induce the release of pro-inflammatory mediators, such as interleukin-6 (IL-6), from inflammatory cells, zavegepant may prevent an IL-6-mediated inflammatory response. Zavegepant may also inhibit the CGRP-mediated induction of eosinophil migration and the stimulation of beta-integrin-mediated T cell adhesion to fibronectin at the site of inflammation, and may abrogate the CGRP-mediated polarization of the T cell response towards the pro-inflammatory state characterized by Th17 and IL-17. This may improve lung inflammation and oxygenation, prevent edema, and further lung injury. CGRP, a 37 amino-acid peptide expressed in and released from a subset of polymodal primary sensory neurons of the trigeminal ganglion and nerve fibers projecting to the airways and by pulmonary neuroendocrine cells, plays an important role in pain transmission, inflammation, and neurogenic vasodilatation. It is released upon acute lung injury and upregulation of transient receptor potential (TRP) channels.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>BMS 742413</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>BMS-742413</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BHV-3500</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Vazegepant</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P210>1337918-83-8</obo:NCIT_P210>
+        <obo:NCIT_P208>CL1406705</obo:NCIT_P208>
+        <obo:NCIT_NHC0>C172616</obo:NCIT_NHC0>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C172633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C172633">
+        <rdfs:label>Molnupiravir</rdfs:label>
+        <oboInOwl:hasExactSynonym>EIDD 2801</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>EIDD-2801</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>MK4482</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Molnupiravir</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>EIDD2801</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>MOLNUPIRAVIR</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P210>2349386-89-4</obo:NCIT_P210>
+        <oboInOwl:hasExactSynonym>Uridine, 4-Oxime, 5&#39;-(2-Methylpropanoate)</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>MK 4482</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Molnupiravir</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>MK-4482</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:IAO_0000115>An orally bioavailable prodrug of EIDD-1931, the synthetic ribonucleoside derivative N4-hydroxycytidine and ribonucleoside analog, with potential antiviral activity against a variety of RNA viruses. Upon oral administration, molnupiravir, being a prodrug, is metabolized into its active form EIDD-1931 and converted into its triphosphate (TP) form. The TP form of EIDD-1931 is incorporated into RNA and inhibits the action of viral RNA-dependent RNA polymerase. This results in the termination of RNA transcription and decreases viral RNA production, and viral RNA replication.</obo:IAO_0000115>
+        <obo:NCIT_P208>CL1406746</obo:NCIT_P208>
+        <obo:NCIT_P319>YA84KI1VEW</obo:NCIT_P319>
+        <obo:NCIT_NHC0>C172633</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>N4-Hydroxycytidine, 5&#39;-Isopropyl Ester</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C172638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C172638">
+        <rdfs:label>Meplazumab</rdfs:label>
+        <oboInOwl:hasExactSynonym>Ketantin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PMZ201501</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Meplazumab</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>MEPLAZUMAB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PMZ-201501</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Meplazumab</obo:NCIT_P108>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <obo:NCIT_P208>CL1406749</obo:NCIT_P208>
+        <obo:NCIT_P106>Immunologic Factor</obo:NCIT_P106>
+        <obo:NCIT_P319>0EL07E29VQ</obo:NCIT_P319>
+        <obo:NCIT_NHC0>C172638</obo:NCIT_NHC0>
+        <obo:IAO_0000115>A humanized immunoglobulin G2 (IgG2) monoclonal antibody directed against CD147 (basigin; BSG; extracellular matrix metalloproteinase inducer; EMMPRIN), with potential immunomodulating activity. Upon administration, meplazumab targets, binds to and inhibits the activity of CD147. This may prevent the binding of the spike protein (SP) of SARS-CoV-2 to CD147 on human host cells. This may prevent SARS-CoV-2&#39;s host cell entry through CD147-mediated transport and prevent host cell invasion. This may block SARS-CoV-2 infection. In addition, preventing viral invasion of progenitor/stem cells may enhance lung repair and suppress inflammation. CD147, a highly glycosylated transmembrane protein of the immunoglobulin superfamily expressed on host-cells, including red blood cells (RBCs), T-cells, and stem/progenitor cells, may play a key role in host invasion by SARS-CoV-2.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C173054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C173054">
+        <rdfs:label>SARS-CoV-2 SP modRNA LNP vaccine BNT162a1</rdfs:label>
+        <oboInOwl:hasExactSynonym>BNT1162a1 SARS-CoV-2 Vaccine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BNT162a1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BNT162a1 COVID-19 Vaccine</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>SARS-CoV-2 SP modRNA LNP vaccine BNT162a1</obo:NCIT_P108>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>BNT-162a1</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C173054</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2 SP modRNA LNP vaccine BNT162a1</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A formulation consisting of lipid nanoparticle (LNP) encapsulating nucleoside-modified messenger RNA (modRNA) encoding the severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) spike glycoprotein (SP), with potential immunizing and anti-COVID-19 activities. Upon injection of SARS-CoV-2 SP modRNA LNP vaccine BNT162a1, the LNPs bind to the plasma membrane of nearby cells and release SARS-CoV-2 SP mRNA into the cell. The mRNA is then translated by the cellular protein translation machinery to produce SARS-CoV-2 SP. This may stimulate the immune system to induce an antibody and T-cell-mediated immune response. This may provide active immunization against SARS-CoV-2 infection. SP, usually found on the surface of SARS-CoV-2, plays an essential role in the infection pathway of the SARS-CoV-2 virus.</obo:IAO_0000115>
+        <obo:NCIT_P208>CL1406826</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym>BNT 162a1</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Cell</obo:NCIT_P106>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C173568 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C173568">
+        <rdfs:label>Carrimycin</rdfs:label>
+        <oboInOwl:hasExactSynonym>Biotechspiramycin</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Carrimycin</obo:NCIT_P108>
+        <obo:NCIT_P330>801877</obo:NCIT_P330>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Carrimycin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Shengjimycin</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A 16-membered macrolide antibiotic, with potential antibacterial and immunomodulatory activities. Upon administration, carrimycin targets and binds to bacterial ribosomes, thereby inhibiting protein synthesis. Carrimycin may be active against some Gram-positive bacteria and Mycobacterium tuberculosis. It may also have immunomodulatory activity, presumably through a different mechanism, which has not yet been characterized.</obo:IAO_0000115>
+        <obo:NCIT_P329>801877</obo:NCIT_P329>
+        <obo:NCIT_NHC0>C173568</obo:NCIT_NHC0>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C176424"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C173742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C173742">
+        <rdfs:label>Bamlanivimab</rdfs:label>
+        <oboInOwl:hasExactSynonym>LY 3819253</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Bamlanivimab</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>LY-3819253</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Immunologic Factor</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>BAMLANIVIMAB</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_NHC0>C173742</obo:NCIT_NHC0>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>LY CoV555</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>LY-CoV55</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>LYCoV555</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bamlanivimab</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P319>45I6OFJ8QH</obo:NCIT_P319>
+        <obo:IAO_0000115>A neutralizing immunoglobulin G1 (IgG1) monoclonal antibody directed against the spike protein (SP) of severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2), that can potentially be used for immunization against COVID-19. Upon administration of bamlanivimab, this agent specifically targets and binds to the SP, thereby blocking viral attachment and entry into human cells and may thereby neutralize SARS-CoV-2. This may slow the progression of the disease and accelerate recovery, and may potentially provide temporary protection against infection with SARS-CoV-2.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>LY3819253</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C173743 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C173743">
+        <rdfs:label>Anti-Spike (S) SARS-CoV-2 Monoclonal Antibodies REGN10933+REGN10987 REGN-COV2</rdfs:label>
+        <oboInOwl:hasExactSynonym>REGN10933/REGN10987</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>REGN10933 Plus REGN10987</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anti-COVID Cocktail REGN-COV2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>REGN10933+REGN10987</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Anti-Spike (S) SARS-CoV-2 Monoclonal Antibodies REGN10933+REGN10987 REGN-COV2</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2-specific Antibodies REGN10933 and REGN10987</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>REGN COV2</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C173743</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>REGNCOV2</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A combination of two monoclonal antibodies, REGN10933 and REGN10987, directed against the spike protein (SP) of severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2), that can potentially be used for immunization against COVID-19. Upon administration of REGN-COV2, REGN10933 and REGN10987 specifically targets and binds to non-overlapping regions of the receptor-binding domain (RBD) of SP, thereby blocking viral attachment and entry into human cells and may thereby neutralize SARS-CoV-2. This may slow the progression of the disease and accelerate recovery, and may potentially provide temporary protection against infection with SARS-CoV-2. Binding to two distinct regions of the RBD of SP may decrease the potential for virus escape mutants that occur upon treatment with a single SARS-CoV-2 antibody, and may provide enhanced protection against loss of efficacy.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>REGN-COV2</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Immunologic Factor</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Anti-Spike SARS-CoV-2 Monoclonal Antibodies REGN-COV2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anti-Spike (S) SARS-CoV-2 Monoclonal Antibodies REGN10933+REGN10987 REGN-COV2</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C173977 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C173977">
+        <rdfs:label>Etesevimab</rdfs:label>
+        <oboInOwl:hasExactSynonym>Anti-COVID-19 Spike Protein Monoclonal Antibody JS016</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P319>N7Q9NLF11I</obo:NCIT_P319>
+        <oboInOwl:hasExactSynonym>Anti-SARS-CoV-2 Monoclonal Antibody JS016</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>JS016</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>JS 016</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Etesevimab</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:IAO_0000115>An Fc-modified neutralizing, recombinant, human monoclonal antibody directed against the spike (S) protein receptor binding domain (RBD) of severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2), that can potentially be used for immunization against Coronavirus disease 2019 (COVID-19). Upon administration of etesevimab, this agent specifically targets and binds to the RBD of the SARS-CoV-2 S protein. This blocks viral attachment and entry into human host cells and may thereby neutralize SARS-CoV-2. This may slow the progression of the disease and accelerate recovery, and may also provide temporary protection against infection with SARS-CoV-2. S-protein, usually found on the surface of SARS-CoV-2, plays an essential role in the infection pathway of the SARS-CoV-2 virus.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ETESEVIMAB</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Immunologic Factor</obo:NCIT_P106>
+        <obo:NCIT_NHC0>C173977</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Anti-COVID-19 Monoclonal Antibody JS016</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Etesevimab</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>JS-016</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C175229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C175229">
+        <rdfs:label>Anti-SARS-CoV-2 S Protein Monoclonal Antibody AZD7442</rdfs:label>
+        <obo:IAO_0000115>A combination of two neutralizing human monoclonal antibodies AZD8895 and AZD1061, that are isolated from convalescent patients with severe acute respiratory syndrome coronavirus-2 (SARS-CoV-2) infection, and directed against the spike (S) protein, that can potentially be used for passive immunization against Coronavirus disease 2019 (COVID-19). Upon administration of anti-SARS-CoV-2 S protein monoclonal antibody AZD7442, both antibodies AZD8895 and AZD1061 specifically target and bind to the SARS-CoV-2 S protein, thereby blocking viral attachment and entry into human cells and may thereby neutralize SARS-CoV-2. This may slow the progression of the disease and accelerate recovery, and may potentially provide temporary protection against infection with SARS-CoV-2. S protein, usually found on the surface of SARS-CoV-2, plays an essential role in the infection pathway of the SARS-CoV-2 virus.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C175229</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Immunologic Factor</obo:NCIT_P106>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P108>Anti-SARS-CoV-2 S Protein Monoclonal Antibody AZD7442</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Monoclonal Antibody AZD7442</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anti-SARS-CoV-2 Spike Protein Monoclonal Antibody AZD7442</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>AZD8895 + AZD1061</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anti-SARS-CoV-2 S Protein Monoclonal Antibody AZD7442</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>AZD 7442</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>AZD7442</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>AZD-7442</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>AZD8895/AZD1061</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C177057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C177057">
+        <rdfs:label>Goflikicept</rdfs:label>
+        <obo:NCIT_P108>Goflikicept</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C177057</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>GOFLIKICEPT</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P319>11DRN01OK2</obo:NCIT_P319>
+        <obo:NCIT_P106>Chemical Viewed Functionally</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Goflikicept</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C177075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C177075">
+        <rdfs:label>Zansecimab</rdfs:label>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>ZANSECIMAB</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Zansecimab</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C177075</obo:NCIT_NHC0>
+        <obo:NCIT_P319>A67ZN01CAW</obo:NCIT_P319>
+        <obo:NCIT_P106>Chemical Viewed Functionally</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Zansecimab</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C177093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C177093">
+        <rdfs:label>Inbakicept</rdfs:label>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Inbakicept</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Chemical Viewed Functionally</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>INBAKICEPT</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P319>QN4LI58PJ5</obo:NCIT_P319>
+        <obo:NCIT_P108>Inbakicept</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C177093</obo:NCIT_NHC0>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C2039">
+        <rdfs:label>Bevacizumab</rdfs:label>
+        <oboInOwl:hasExactSynonym>Bevacizumab Biosimilar CBT 124</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P329>43234</obo:NCIT_P329>
+        <oboInOwl:hasExactSynonym>Anti-VEGF Humanized Monoclonal Antibody</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bevacizumab Biosimilar HD204</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P325>A drug used to treat several types of cancer, including certain types of colorectal, lung, breast, and kidney cancers and glioblastoma. It is also being studied in the treatment of other types of cancer. Avastin binds to vascular endothelial growth factor (VEGF) and may prevent the growth of new blood vessels that tumors need to grow. It is a type of antiangiogenesis agent and a type of monoclonal antibody.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Bevacizumab Biosimilar CT-P16</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bevacizumab Biosimilar RPH-001</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P319>2S9ZZM9Q9V</obo:NCIT_P319>
+        <obo:NCIT_P175>704865</obo:NCIT_P175>
+        <oboInOwl:hasExactSynonym>Avastin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>rhuMab-VEGF</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A recombinant humanized monoclonal antibody directed against the vascular endothelial growth factor (VEGF), a pro-angiogenic cytokine.  Bevacizumab binds to VEGF and inhibits VEGF receptor binding, thereby preventing the growth and maintenance of tumor blood vessels.</obo:IAO_0000115>
+        <obo:NCIT_P108>Bevacizumab</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>bevacizumab</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>BP102</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Bevacizumab Biosimilar HLX04</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bevacizumab Biosimilar BEVZ92</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bevacizumab-awwb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bevacizumab Biosimilar QL 1101</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P210>216974-75-3</obo:NCIT_P210>
+        <oboInOwl:hasExactSynonym>Bevacizumab Biosimilar FKB238</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BEVACIZUMAB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>HD204</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C0796392</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>Recombinant Humanized Anti-VEGF Monoclonal Antibody</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bevacizumab Biosimilar LY01008</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>BP102 Biosimilar</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bevacizumab Biosimilar GB-222</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366>Bevacizumab</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Anti-VEGF</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>Bevacizumab</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym>Mvasi</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bevacizumab Biosimilar SCT501</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bevacizumab Biosimilar Zirabev</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bevacizumab-bvzr</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bevacizumab</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bevacizumab Biosimilar IBI305</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P302>Metastatic Colorectal Cancer, Non-small Cell Lung Cancer, glioblastoma; Metastatic Renal Cell Carcinoma; persistent, recurrent or metastatic cervical cancer; epithelial ovarian, fallopian tube, or primary peritoneal cancer</obo:NCIT_P302>
+        <obo:NCIT_NHC0>C2039</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Anti-VEGF rhuMAb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Zirabev</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bevacizumab Biosimilar Mvasi</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SCT501</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Bevacizumab Biosimilar BI 695502</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bevacizumab Biosimilar MIL60</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P330>43234</obo:NCIT_P330>
+        <oboInOwl:hasExactSynonym>Bevacizumab awwb</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Immunoglobulin G1 (Human-Mouse Monoclonal rhuMab-VEGF Gamma-Chain Anti-Human Vascular Endothelial Growth Factor), Disulfide With Human-Mouse Monoclonal rhuMab-VEGF Light Chain, Dimer</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128784"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157712"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C176424"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:NCIT_A7 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C20450"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20495 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20495">
+        <rdfs:label>Interferon Beta</rdfs:label>
+        <obo:IAO_0000115>A class of interferon elaborated by fibroblasts.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C20495</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Fibroblast Interferon</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>IFN-Beta</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Interferon Beta</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Interferon Beta, Natural</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Immunologic Factor</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Beta Interferon</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Interferon, Beta</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Interferon Beta</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P208>CL414513</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym>Endogenous Interferon Beta</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Beta-Interferon</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Natural human interferon beta</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366>Interferon_Beta</obo:NCIT_P366>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C28844 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C28844">
+        <rdfs:label>Azithromycin</rdfs:label>
+        <obo:NCIT_P108>Azithromycin</obo:NCIT_P108>
+        <obo:NCIT_P207>C0052796</obo:NCIT_P207>
+        <obo:IAO_0000115>An azalide, derived from erythromycin, and a member of a subclass of macrolide antibiotics with bacteriocidal and bacteriostatic activities. Azithromycin reversibly binds to the 50S ribosomal subunit of the 70S ribosome of sensitive microorganisms, thereby inhibiting the translocation step of protein synthesis, wherein a newly synthesized peptidyl tRNA molecule moves from the acceptor site on the ribosome to the peptidyl (donor) site, and consequently inhibiting RNA-dependent protein synthesis leading to cell growth inhibition and cell death.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>AzaSite</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P330>695416</obo:NCIT_P330>
+        <obo:NCIT_P175>643732</obo:NCIT_P175>
+        <obo:NCIT_P319>F94OW58Y8V</obo:NCIT_P319>
+        <oboInOwl:hasExactSynonym>Azithromycin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Zithromax</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P366>Azithromycin</obo:NCIT_P366>
+        <obo:NCIT_P107>Azithromycin</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym>(2R,3S,4R,5R,8R,10R,11R,12S,13S,14R)-13-[(2,6-Dideoxy-3-C-methyl-3-O-methyl-alpha-L-ribo-hexopyranosyl)oxy]-2-ethyl-3,4,10-trihydroxy-3,5,6,8,10,12,14-heptamethyl-11-[(3,4,6-trideoxy-3-(dimethylamino)-beta-D-xylo-hexopyranosyl)oxy]-1-oxa-6-azacyclopentade</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>N-methyl-11-aza-10-deoxy-10-dihydroerythromycin A</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>AZITHROMYCIN, UNSPECIFIED FORM</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C28844</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>XZ-450</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P329>695416</obo:NCIT_P329>
+        <obo:NCIT_P210>83905-01-5</obo:NCIT_P210>
+        <oboInOwl:hasExactSynonym>CP 62993</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Antibiotic</obo:NCIT_P106>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C176424"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C385">
+        <rdfs:label>Colchicine</rdfs:label>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P207>C0009262</obo:NCIT_P207>
+        <obo:IAO_0000115>An alkaloid isolated from Colchicum autumnale with anti-gout and anti-inflammatory activities. The exact mechanism of action by which colchicines exerts its effect has not been completely established. Colchicine binds to tubulin, thereby interfering with the polymerization of tubulin, interrupting microtubule dynamics, and disrupting mitosis. This leads to an inhibition of migration of leukocytes and other inflammatory cells, thereby reducing the inflammatory response to deposited urate crystals.  Colchicine may also interrupt the cycle of monosodium urate crystal deposition in joint tissues, thereby also preventing the resultant inflammatory response. Overall, colchicine decreases leukocyte chemotaxis/migration and phagocytosis to inflamed areas, and inhibits the formation and release of a chemotactic glycoprotein that is produced during phagocytosis of urate crystals.</obo:IAO_0000115>
+        <obo:NCIT_P366>Colchicine</obo:NCIT_P366>
+        <obo:NCIT_P329>39188</obo:NCIT_P329>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>(S)-N-(5,6,7,9-Tetrahydro-1,2,3,10-tetramethoxy-9-oxobenzo[a]heptalen-7-yl)acetamide</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C385</obo:NCIT_NHC0>
+        <obo:NCIT_P350>C22H25NO6</obo:NCIT_P350>
+        <obo:NCIT_P330>39188</obo:NCIT_P330>
+        <obo:NCIT_P325>A drug used to treat gout (inflamed joints caused by a buildup of uric acid). It comes from the crocus plant Colchicum autumnale. Colchicine blocks cell division and the movement of certain immune cells to areas that are inflamed. It is a type of alkaloid and a type of mitotic inhibitor.</obo:NCIT_P325>
+        <obo:NCIT_P106>Organic Chemical</obo:NCIT_P106>
+        <obo:NCIT_P368>CHEBI:27882</obo:NCIT_P368>
+        <obo:NCIT_P319>SML2Y3J35T</obo:NCIT_P319>
+        <obo:NCIT_P108>Colchicine</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>colchicine</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P175>757</obo:NCIT_P175>
+        <oboInOwl:hasExactSynonym>COLCHICINE</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P210>64-86-8</obo:NCIT_P210>
+        <oboInOwl:hasExactSynonym>Colchicine</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C176424"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C422">
+        <rdfs:label>Dexamethasone</rdfs:label>
+        <oboInOwl:hasExactSynonym>Alba-Dex</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Decameth</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anemul mono</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P350>C22H29FO5</obo:NCIT_P350>
+        <oboInOwl:hasExactSynonym>Orgadrone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>16Alpha-methyl-9alpha-fluoro-1,4-pregnadiene-11beta,17alpha,21-triol-3,20-dione</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A synthetic adrenal corticosteroid with potent anti-inflammatory properties. In addition to binding to specific nuclear steroid receptors, dexamethasone also interferes with NF-kB activation and apoptotic pathways. This agent lacks the salt-retaining properties of other related adrenal hormones. (NCI04)</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Dectancyl</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Fluoro-9alpha Methyl-16alpha Prednisolone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Methylfluorprednisolone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Desamethasone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Loverine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dexameth</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Adexone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dexa-sine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Auxiloson</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TaperDex</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hexadecadrol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>9alpha-Fluoro-16alpha- methylprednisolone</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P325>A synthetic steroid (similar to steroid hormones produced naturally in the adrenal gland). Dexamethasone is used to treat leukemia and lymphoma and may be used to treat some of the problems caused by other cancers and their treatment.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Aknichthol Dexa</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Baycuten N</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P210>50-02-2</obo:NCIT_P210>
+        <oboInOwl:hasExactSynonym>Dexamethasonum</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>Dexamethasone</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym>ZoDex</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C422</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Hexadrol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Baycuten</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Dekacort</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Aacidexam</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Decalix</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dexamethasone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Millicorten</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P175>34521</obo:NCIT_P175>
+        <obo:NCIT_P302>Allergic disorders; antiemetic; corneal injury; inflammatory conditions</obo:NCIT_P302>
+        <oboInOwl:hasExactSynonym>Decadrol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Decadron</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Dexa-Scheroson</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Deltafluorene</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dexinoral</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>16Alpha-methyl-9alpha-fluoro-delta1-hydrocortisone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dexamethasone Intensol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Desameton</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dexa-Mamallet</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Alin Oftalmico</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>9Alpha-fluoro-16alpha-methylprednisolone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dexone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Decasone R.p.</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P368>CHEBI:41879</obo:NCIT_P368>
+        <oboInOwl:hasExactSynonym>Dinormon</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Dexamethasone</obo:NCIT_P108>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Mymethasone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dexafluorene</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Spersadex</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P329>39789</obo:NCIT_P329>
+        <obo:NCIT_P207>C0011777</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>Gammacorten</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Alin Depot</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Decacort</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Alin</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P330>39789</obo:NCIT_P330>
+        <obo:NCIT_P106>Organic Chemical</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Dexapos</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Baycadron</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>DEXAMETHASONE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>9Alpha-fluoro-11beta,17alpha,21-trihydroxy-16alpha-methylpregna-1,4-diene-3,20-dione</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>16Alpha-methyl-9alpha-fluoroprednisolone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dexamecortin</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P319>7S5I7G3JQL</obo:NCIT_P319>
+        <oboInOwl:hasExactSynonym>Dexacortin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Fluorodelta</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>1-Dehydro-16alpha-methyl-9alpha-fluorohydrocortisone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dexafarma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Amplidermis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cortidexason</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dexa-Rhinosan</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>dexamethasone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Auricularum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dexacortal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lokalison-F</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366>Dexamethasone</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Cortisumman</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dexalocal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Visumetazone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dexamonozon</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>(11Beta,16alpha)-9-fluoro-11,17,21-trihydroxy-16-methylpregna-1,4-diene-3,20-dione</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Decadron DP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dxevo</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Deronil</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Fortecortin</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128784"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157712"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C176424"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C561">
+        <rdfs:label>Ibuprofen</rdfs:label>
+        <oboInOwl:hasExactSynonym>Advil</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>Ibuprofen</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym>p-Isobutylhydratropic Acid</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P319>WK2XYI10QM</obo:NCIT_P319>
+        <obo:NCIT_P325>A drug used to treat fever, swelling, pain, and redness by preventing the body from making a substance that causes inflammation. It is a type of nonsteroidal anti-inflammatory drug (NSAID).</obo:NCIT_P325>
+        <obo:NCIT_P106>Organic Chemical</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Ibuprofen</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P329>40475</obo:NCIT_P329>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P366>Ibuprofen</obo:NCIT_P366>
+        <obo:NCIT_P175>256857</obo:NCIT_P175>
+        <oboInOwl:hasExactSynonym>Benzeneacetic Acid, Alpha-methyl-4-(2-methylpropyl)-</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P368>CHEBI:5855</obo:NCIT_P368>
+        <obo:NCIT_P108>Ibuprofen</obo:NCIT_P108>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>ibuprofen</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C0593507</obo:NCIT_P207>
+        <obo:NCIT_P330>40475</obo:NCIT_P330>
+        <oboInOwl:hasExactSynonym>p-Isobutylhydratropic acid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>(.+ -.)-p-Isobutylhydratropic acid</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P350>C13H18O2</obo:NCIT_P350>
+        <obo:NCIT_NHC0>C561</obo:NCIT_NHC0>
+        <obo:IAO_0000115>A propionic acid derivate and nonsteroidal anti-inflammatory drug (NSAID) with anti-inflammatory, analgesic, and antipyretic effects. Ibuprofen inhibits the activity of cyclo-oxygenase I and II, resulting in a decreased formation of precursors of prostaglandins and thromboxanes. This leads to decreased prostaglandin synthesis, by prostaglandin synthase, the main physiologic effect of ibuprofen. Ibuprofen also causes a decrease in the formation of thromboxane A2 synthesis, by thromboxane synthase, thereby inhibiting platelet aggregation. (NCI05)</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>IBUPROFEN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Motrin</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P210>15687-27-1</obo:NCIT_P210>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C176424"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C647">
+        <rdfs:label>Methylprednisolone</rdfs:label>
+        <oboInOwl:hasExactSynonym>Medrol</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P325>A corticosteroid hormone replacement.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Metilbetasone Solubile</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Prednilen</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Metrocort</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A synthetic corticosteroid with anti-inflammatory and immunomodulating properties.  Methylprednisolone binds to and activates specific nuclear receptors, resulting in altered gene expression and inhibition of proinflammatory cytokine production.  This agent also decreases the number of circulating lymphocytes, induces cell differentiation, and stimulates apoptosis in sensitive tumor cell populations.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Duralone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>(6alpha,11beta)-11,17,21-Trihydroxy-6-methylpregna-1,4-diene-3,20-dione</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P210>83-43-2</obo:NCIT_P210>
+        <oboInOwl:hasExactSynonym>Solpredone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medrate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Sieropresol</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P175>19987</obo:NCIT_P175>
+        <oboInOwl:hasExactSynonym>Veriderm Medrol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Esametone</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Methylprednisolone</obo:NCIT_P108>
+        <obo:NCIT_P207>C0025815</obo:NCIT_P207>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_NHC0>C647</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>METHYLPREDNISOLONE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medrone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medrol Veriderm</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P350>C22H30O5</obo:NCIT_P350>
+        <oboInOwl:hasExactSynonym>Predni-M-Tablinen</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Adlone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Medlone 21</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Summicort</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P329>41528</obo:NCIT_P329>
+        <oboInOwl:hasExactSynonym>DepMedalone</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Organic Chemical</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Mega-Star</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>6Alpha-Methylprednisolone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>methylprednisolone</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366>Methylprednisolone</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Emmetipi</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Firmacort</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Wyacort</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Metysolon</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Radilem</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Caberdelta M</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Depo Moderin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Metypresol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Depo-Nisolone</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P319>X4W7ZR7023</obo:NCIT_P319>
+        <obo:NCIT_P302>Adrenocortical insufficiency; Conditions requiring immunosuppression; Inflammatory conditions; Multiple Sclerosis; Nephrotic syndrome</obo:NCIT_P302>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Urbason</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Methylprednisolone</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P330>41528</obo:NCIT_P330>
+        <obo:NCIT_P368>CHEBI:6888</obo:NCIT_P368>
+        <oboInOwl:hasExactSynonym>Meprolone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Methylprednisolonum</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>Methylprednisolone</obo:NCIT_P107>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128784"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157712"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C65364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C65364">
+        <rdfs:label>Darunavir</rdfs:label>
+        <obo:NCIT_P368>CHEBI:367163</obo:NCIT_P368>
+        <oboInOwl:hasExactSynonym>Darunavir</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P350>C27H37N3O7S</obo:NCIT_P350>
+        <oboInOwl:hasExactSynonym>(3R,3aS,6aR)-Hexahydrofuro(2,3-b)furan-3-yl N-((1S,2R)-1-benzyl-2-hydroxy-3-(N1-isobutylsulfanilamido)propyl)carbamate</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P210>206361-99-1</obo:NCIT_P210>
+        <obo:NCIT_NHC0>C65364</obo:NCIT_NHC0>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>DARUNAVIR</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P207>C1435444</obo:NCIT_P207>
+        <obo:NCIT_P319>YO603Y8113</obo:NCIT_P319>
+        <obo:IAO_0000115>A human immunodeficiency virus type 1 (HIV-1) protease nonpeptidic inhibitor, with activity against HIV. Upon oral administration, darunavir selectively targets and binds to the active site of HIV-1 protease, and inhibits the dimerization and catalytic activity of HIV-1 protease. This inhibits the proteolytic cleavage of viral Gag and Gag-Pol polyproteins in HIV-infected cells. This inhibition leads to the production of immature, non-infectious viral proteins that are unable to form mature virions, and prevents HIV replication.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>TMC114</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366>Darunavir</obo:NCIT_P366>
+        <obo:NCIT_P108>Darunavir</obo:NCIT_P108>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C74202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C74202">
+        <rdfs:label>Fingolimod</rdfs:label>
+        <obo:NCIT_P368>CHEBI:63115</obo:NCIT_P368>
+        <obo:NCIT_P107>Fingolimod</obo:NCIT_P107>
+        <obo:NCIT_P210>162359-55-9</obo:NCIT_P210>
+        <obo:NCIT_P350>C19H33NO2</obo:NCIT_P350>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:IAO_0000115>An orally available derivate of myriocin and sphingosine-1-phosphate receptor 1 (S1PR1, S1P1) modulator, with potential anti-inflammatory and immunomodulating activities. Upon oral administration, fingolimod, as a structural analogue of sphingosine, selectively targets and binds to S1PR1 on lymphocytes and causes transient receptor activation followed by S1PR1 internalization and degradation. This results in the sequestration of lymphocytes in lymph nodes. By preventing egress of lymphocytes. fingolimod reduces both the amount of circulating peripheral lymphocytes and the infiltration of lymphocytes into target tissues. This prevents a lymphocyte-mediated immune response and may reduce inflammation. S1PR1, a G-protein coupled receptor, plays a key role in lymphocyte migration from lymphoid tissues. Fingolimod also shifts macrophages to an anti-inflammatory M2 phenotype, and modulates their proliferation, morphology, and cytokine release via inhibition of the transient receptor potential cation channel, subfamily M, member 7 (TRPM7).</obo:IAO_0000115>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Fingolimod</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P319>3QN8BYN5QF</obo:NCIT_P319>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P366>Fingolimod</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>FINGOLIMOD</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C74202</obo:NCIT_NHC0>
+        <obo:NCIT_P207>C1699926</obo:NCIT_P207>
+        <obo:NCIT_P108>Fingolimod</obo:NCIT_P108>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:NCIT_A5 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C72782"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C81605 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C81605">
+        <rdfs:label>Favipiravir</rdfs:label>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Favipiravir</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P210>259793-96-9</obo:NCIT_P210>
+        <oboInOwl:hasExactSynonym>6-Fluoro-3-hydroxy-2-pyrazinecarboxamide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>T-705</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C81605</obo:NCIT_NHC0>
+        <obo:NCIT_P319>EW5GL2X7E0</obo:NCIT_P319>
+        <obo:NCIT_P350>C5H4FN3O2</obo:NCIT_P350>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:IAO_0000115>A pyrazinecarboxamide derivative with activity against RNA viruses. Favipiravir is converted to the ribofuranosyltriphosphate derivative by host enzymes and selectively inhibits the influenza viral RNA-dependent RNA polymerase.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>FAVIPIRAVIR</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C1138226</obo:NCIT_P207>
+        <obo:NCIT_P366>Favipiravir</obo:NCIT_P366>
+        <obo:NCIT_P108>Favipiravir</obo:NCIT_P108>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C83782 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C83782">
+        <rdfs:label>Ifenprodil</rdfs:label>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>1-Piperidineethanol, 4-Benzyl-alpha-(p-hydroxyphenyl)-beta-methyl-</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>2-(4-Benzylpiperidino)-1-(4-hydroxyphenyl)propanol</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P350>C21H27NO2</obo:NCIT_P350>
+        <obo:NCIT_P210>23210-56-2</obo:NCIT_P210>
+        <obo:NCIT_P207>C0063340</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>Ifenprodil</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NP-120</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C83782</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>IFENPRODIL</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P319>R8OE3P6O5S</obo:NCIT_P319>
+        <obo:IAO_0000115>An orally bioavailable, N-methyl-D-aspartate (NMDA) receptor antagonist, with potential central nervous system (CNS) stimulating, neuroprotective, anti-inflammatory and anti-fibrotic activities. Upon administration, ifenprodil targets, binds to and inhibits glutamanergic NMDA receptors (NMDARs), specifically the glycine-binding NMDA receptor subunit 1 (GluN1) and 2 (glutamate-binding NMDA receptor subunit 2; NMDA-type subunit 2B; GluN2B), thereby preventing NMDAR signaling. This inhibits neuronal excitotoxicity, and thereby potentially enhancing cognitive function. Additionally, ifenprodil inhibits G protein-coupled inwardly-rectifying potassium (GIRK) channels, and interacts with alpha1 adrenergic, serotonin, and activates sigma receptors. Ifenprodil exerts its anti-inflammatory effect through its effect on NMDA and possibly sigma-1 receptors. Although the exact mechanism has not fully been elucidated, this agent reduces the infiltration of neutrophils and T-cells into the lungs and prevents the release of pro-inflammatory cytokines. This may result in the reduction of the lung inflammatory response, inhibit fibrosis in the lungs and may reduce the severity of cough. NMDA receptors are multimeric ionotropic glutamate receptors composed of four subunits and are expressed on various cells and organs, such as in the brain, lungs, and on T-cells and neutrophils.</obo:IAO_0000115>
+        <obo:NCIT_P108>Ifenprodil</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Cerocral</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C85447 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C85447">
+        <rdfs:label>Alunacedase Alfa</rdfs:label>
+        <obo:NCIT_P319>FA2I4Z873U</obo:NCIT_P319>
+        <oboInOwl:hasExactSynonym>APN01</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <obo:NCIT_P330>642531</obo:NCIT_P330>
+        <obo:IAO_0000115>A recombinant, soluble glycosylated form of human angiotensin converting enzyme 2 (rhACE2) with antihypertensive and potential antineoplastic activities. Alunacedase Alfa may normalize ACE2 levels, cleaving angiotensin II to create angiotensin-(1-7) and restoring the function of the renin-angiotensin system (RAS). ACE2, a homolog of ACE1, appears to function as a negative regulator of the RAS system by converting angiotensin II to angiotensin-(1-7), a peptide with actions that counteract the cardiovascular actions of angiotensin II. In addition, angiotensin-(1-7) may inhibit cyclooxygenase 2 (COX-2) and the production of proinflammatory prostaglandins and may activate the angiotensin-(1-7) G protein-coupled receptor Mas, resulting in diminished tumor cell proliferation. ACE2 levels may be reduced in malignancy and diabetes and in liver, cardiovascular and lung diseases.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Alunacedase Alfa</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C85447</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>ALUNACEDASE ALFA</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Alunacedase Alfa</obo:NCIT_P108>
+        <obo:NCIT_P329>642531</obo:NCIT_P329>
+        <oboInOwl:hasExactSynonym>rhACE2 APN01</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P208>CL412316</obo:NCIT_P208>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C128784"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157712"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C176424"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C91011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C91011">
+        <rdfs:label>Metenkefalin</rdfs:label>
+        <obo:NCIT_P210>58569-55-4</obo:NCIT_P210>
+        <oboInOwl:hasExactSynonym>Enkephalin, Methionine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>N-(N-(N-(N-L-Tyrosylglycyl)glycyl)-L-phenylalanyl)-L-methionine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>(Met5)-enkephalin</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A synthetic form of the naturally occurring, endogenous opioid peptide, metenkephalin, and agonist of the zeta- and delta-opioid receptor and, to a lesser extent the mu-opioid receptor, with potential analgesic, neuromodulatory, immunomodulatory, anti-inflammatory, antinociceptive/analgesic, antidepressant, and gastrointestinal (GI) motility modulating activities. Upon administration, metenkefalin mimics its endogenous ligand and targets, binds to and activates the opioid receptors. This leads to an analgesic effect, inhibits neuropathic pain, and inhibits GI muscle contractility. Binding to the opioid growth factor receptor (OGFR; zeta-opioid receptor), enhances tissue growth and regeneration. In addition, activation of delta-opioid receptors located on a variety of immune cells may modulate the inflammatory immune response. This may inhibit the secretion of pro-inflammatory cytokines and the proliferation of leukocytes.</obo:IAO_0000115>
+        <obo:NCIT_P106>Organic Chemical</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Porcine beta-endorphin 1-5</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Tyr-Gly-Gly-Phe-Met-OH</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Metenkefalin</obo:NCIT_P108>
+        <obo:NCIT_P319>9JEZ9OD3AS</obo:NCIT_P319>
+        <obo:NCIT_NHC0>C91011</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>METENKEFALIN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Metenkefalin</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P350>C27H35N5O7S</obo:NCIT_P350>
+        <obo:NCIT_P207>C2983984</obo:NCIT_P207>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>MET-enkephalin</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C95222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C95222">
+        <rdfs:label>Fostamatinib</rdfs:label>
+        <obo:NCIT_P207>C2713632</obo:NCIT_P207>
+        <obo:IAO_0000115>A small molecule Syk kinase inhibitor with potential anti-inflammatory and immunomodulating activities. Fostamatinib inhibits Syk kinase-mediated IgG Fc gamma receptor signaling, resulting in inhibition of the activation of mast cells, macrophages, and B-cells and related inflammatory responses and tissue damage. Syk kinase, widely expressed in hematopoietic cells, is a nonreceptor tyrosine kinase that is involved in coupling activated immunoreceptors to signal downstream events that mediate diverse cellular responses, including proliferation, differentiation, and phagocytosis.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>(6-((5-Fluoro-2-((3,4,5-Trimethoxyphenyl)Amino)Pyrimidin-4-yl)Amino)-2,2-Dimethyl-3-Oxo-2,3-Dihydro-4H-Pyrido(3,2-B)(1,4)Oxazin-4-Yl)Methyl Dihydrogen Phosphate</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>Fostamatinib</obo:NCIT_P107>
+        <obo:NCIT_P210>901119-35-5</obo:NCIT_P210>
+        <obo:NCIT_P106>Pharmacologic Substance</obo:NCIT_P106>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_NHC0>C95222</obo:NCIT_NHC0>
+        <obo:NCIT_P322>FDA</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>R-935788 Free Acid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Fostamatinib</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>2H-Pyrido(3,2-B)-1,4-Oxazin-3(4H)-One, 6-((5-Fluoro-2-((3,4,5-Trimethoxyphenyl)Amino)-4-Pyrimidinyl)Amino)-2,2-Dimethyl-4-((Phosphonooxy)Methyl)-</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P350>C23H26FN6O9P</obo:NCIT_P350>
+        <obo:NCIT_P108>Fostamatinib</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>FOSTAMATINIB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>R788 Free Acid</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Organic Chemical</obo:NCIT_P106>
+        <obo:NCIT_P319>SQ8A3S5101</obo:NCIT_P319>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116978"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173381"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C63923"/>
+        <obo:NCIT_A5 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C69128"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+

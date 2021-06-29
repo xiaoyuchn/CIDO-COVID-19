@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/your_ontology/external/Fidual_import.owl" uri="gkioyuxu.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1618641295296" name="http://purl.obolibrary.org/obo/your_ontology/external/CHEBI_individual_import.owl" uri="CHEBI_individual_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1618641295296" name="http://purl.obolibrary.org/obo/your_ontology/external/DRON_individual_import.owl" uri="DRON_individual_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1618641295296" name="http://purl.obolibrary.org/obo/your_ontology/external/FOODON_individual_import.owl" uri="FOODON_individual_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1618641295296" name="http://purl.obolibrary.org/obo/your_ontology/external/Fidual_import.owl" uri="gkioyuxu.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1618641295296" name="http://purl.obolibrary.org/obo/your_ontology/external/IDOMAL_individuals_import.owl" uri="IDOMAL_individuals_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1618641295296" name="http://purl.obolibrary.org/obo/your_ontology/external/NCIT_individual_import.owl" uri="NCIT_individual_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1618641295296" name="http://purl.obolibrary.org/obo/your_ontology/external/VTO_individual_import.owl" uri="VTO_individual_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1618641295296" name="http://purl.obolibrary.org/obo/your_ontology/external/XCO_individual_import.owl" uri="XCO_individual_import.owl"/>
+    </group>
+</catalog>

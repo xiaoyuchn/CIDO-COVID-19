@@ -1,0 +1,959 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/cido-covid-19/external/NCIT_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/cido-covid-19/external/NCIT_import.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cido-covid-19/external/NCIT_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
+        <rdfs:label>DesignNote</rdfs:label>
+        <oboInOwl:hasExactSynonym>DesignNote</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>DesignNote</obo:NCIT_P107>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0>P98</obo:NCIT_NHC0>
+        <obo:IAO_0000115>A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
+        <obo:NCIT_P108>DesignNote</obo:NCIT_P108>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322">
+        <rdfs:label>Contributing_Source</rdfs:label>
+        <obo:NCIT_P107>Contributing Source</obo:NCIT_P107>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:IAO_0000115>A property is used to indicate when a non-EVS entity has contributed to, and has a stake in, a concept. This is used where such entities, within or outside NCI, have indicated the need to be able to track their own concepts. A single concept can have multiple instances of this property if multiple entities have such a defined stake.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Contributing_Source</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>P322</obo:NCIT_NHC0>
+        <obo:NCIT_P108>Contributing_Source</obo:NCIT_P108>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_Contributing_Source-enum"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366">
+        <rdfs:label>Legacy Concept Name</rdfs:label>
+        <oboInOwl:hasExactSynonym>Legacy Concept Name</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A property representing a retired unique concept identifier created and stored as Concept Name by legacy EVS software. Use of these values was long discouraged, but continued as late as 2009 when creation of new values ceased and Concept Name was retired. Legacy values are intended solely to help resolve and update earlier coding.</obo:IAO_0000115>
+        <obo:NCIT_P108>Legacy Concept Name</obo:NCIT_P108>
+        <protege:readOnly>true</protege:readOnly>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Legacy_Concept_Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>P366</obo:NCIT_NHC0>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <oboInOwl:hasExactSynonym>DEFINITION</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has exact synonym</rdfs:label>
+        <obo:IAO_0000115>A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Synonym with Source Data</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>FULL_SYN</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325">
+        <rdfs:label>ALT_DEFINITION</rdfs:label>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>ALT_DEFINITION</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>[source] Definition</obo:NCIT_P107>
+        <obo:NCIT_P108>ALT_DEFINITION</obo:NCIT_P108>
+        <obo:IAO_0000115>A property representing the English language definition of a concept from a source other than NCI.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P325</obo:NCIT_NHC0>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_textArea"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106">
+        <rdfs:label>Semantic_Type</rdfs:label>
+        <oboInOwl:hasExactSynonym>Semantic_Type</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:IAO_0000115>A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</obo:IAO_0000115>
+        <obo:NCIT_P107>Semantic Type</obo:NCIT_P107>
+        <obo:NCIT_P108>Semantic_Type</obo:NCIT_P108>
+        <obo:NCIT_NHC0>P106</obo:NCIT_NHC0>
+        <obo:NCIT_P98>In general, applying semantic types aids in allowing users (or computer programs) to draw conclusions about concepts by virtue of the categories to which they have been assigned.  We use a set of semantic types developed for the UMLS Metathesaurus. There are currently 134 semantic types in the UMLS.</obo:NCIT_P98>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_Semantic_Type-enum"/>
+    </owl:AnnotationProperty>
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </rdf:Description>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in subset</rdfs:label>
+        <oboInOwl:hasExactSynonym>Concept_In_Subset</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0">
+        <rdfs:label>code</rdfs:label>
+        <oboInOwl:hasExactSynonym>code</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A property representing a concept unique identifier within the NCI Enterprise Vocabulary Service&#39;s NCI Thesaurus.</obo:IAO_0000115>
+        <obo:NCIT_P108>code</obo:NCIT_P108>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0>NHC0</obo:NCIT_NHC0>
+        <protege:readOnly>true</protege:readOnly>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P208">
+        <rdfs:label>NCI_META_CUI</rdfs:label>
+        <oboInOwl:hasExactSynonym>NCI_META_CUI</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:IAO_0000115>A property representing the concept unique identifier (CUI) for those concepts that appear in NCI Metathesaurus but not in the National Library of Medicine Unified Medical Language System (NLM UMLS).</obo:IAO_0000115>
+        <obo:NCIT_P108>NCI_META_CUI</obo:NCIT_P108>
+        <obo:NCIT_P107>NCI Metathesaurus CUI</obo:NCIT_P107>
+        <obo:NCIT_NHC0>P208</obo:NCIT_NHC0>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
+        <rdfs:label>Display_Name</rdfs:label>
+        <oboInOwl:hasExactSynonym>Display Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107>Display Name</obo:NCIT_P107>
+        <obo:NCIT_P108>Display_Name</obo:NCIT_P108>
+        <obo:IAO_0000115>A property representing an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Display_Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0>P107</obo:NCIT_NHC0>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#readOnly">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108">
+        <rdfs:label>Preferred_Name</rdfs:label>
+        <oboInOwl:hasExactSynonym>Preferred Term</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Preferred Name</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym>Preferred Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>P108</obo:NCIT_NHC0>
+        <obo:NCIT_P108>Preferred_Name</obo:NCIT_P108>
+        <obo:IAO_0000115>A property representing the word or phrase that NCI uses by preference to refer to the concept.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Preferred_Name</oboInOwl:hasExactSynonym>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207">
+        <rdfs:label>UMLS_CUI</rdfs:label>
+        <obo:NCIT_NHC0>P207</obo:NCIT_NHC0>
+        <obo:NCIT_P108>UMLS_CUI</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>UMLS_CUI</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:IAO_0000115>A property representing the concept unique identifier (CUI) assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.</obo:IAO_0000115>
+        <obo:NCIT_P107>UMLS CUI</obo:NCIT_P107>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_Contributing_Source-enum -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCIT_Contributing_Source-enum"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_Semantic_Type-enum -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCIT_Semantic_Type-enum"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_textArea -->
+
+    <rdfs:Datatype rdf:about="http://purl.obolibrary.org/obo/NCIT_textArea"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15720 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15720">
+        <rdfs:label>Pharmacodynamics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:NCIT_NHC0>C15720</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Pharmacodynamics</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P208>CL448486</obo:NCIT_P208>
+        <oboInOwl:hasExactSynonym>pharmacodynamics</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The study of the biochemical and physiological effects of drugs and the mechanisms of their actions, including the correlation of actions and effects of drugs with their chemical structure, also, such effects on the actions of a particular drug or drugs.</obo:IAO_0000115>
+        <obo:NCIT_P325>Branch of pharmacology that studies reactions between drugs and living structures, including the physiological responses to pharmacological, biochemical, physiological, and therapeutic agents.</obo:NCIT_P325>
+        <obo:NCIT_P108>Pharmacodynamics</obo:NCIT_P108>
+        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
+        <obo:NCIT_P366>Pharmacodynamics</obo:NCIT_P366>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16420">
+        <rdfs:label>Medicinal Chemistry</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:NCIT_P108>Medicinal Chemistry</obo:NCIT_P108>
+        <obo:NCIT_P366>Medicinal_Chemistry</obo:NCIT_P366>
+        <obo:NCIT_P207>C0008003</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>Medicinal Chemistry</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A chemistry-based discipline, also involving aspects of biological, medical and pharmaceutical sciences. It is concerned with the invention, discovery, design, identification and preparation of biologically active compounds, the study of their metabolism, the interpretation of their mode of action at the molecular level and the construction of structure-activity relationships.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C16420</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Pharmaceutical Chemistry</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16909 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16909">
+        <rdfs:label>Neuropharmacology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:NCIT_P108>Neuropharmacology</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C16909</obo:NCIT_NHC0>
+        <obo:NCIT_P207>C0027896</obo:NCIT_P207>
+        <obo:IAO_0000115>A branch of pharmacology concerned with the effects of drugs on the nervous system.</obo:IAO_0000115>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Neuropharmacology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366>Neuropharmacology</obo:NCIT_P366>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16974 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16974">
+        <rdfs:label>Pharmacology</rdfs:label>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>pharmacology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Pharmacological</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C0031330</obo:NCIT_P207>
+        <obo:NCIT_P108>Pharmacology</obo:NCIT_P108>
+        <obo:NCIT_P366>Pharmacology</obo:NCIT_P366>
+        <obo:IAO_0000115>The study of pharmacologic agents. This includes the preparation, compounding, and dispensing of drugs, as well as the characteristics and properties of drugs, their effects on the body, and how they are metabolized and eliminated from the body.</obo:IAO_0000115>
+        <obo:NCIT_P325>The study of the origin, chemistry, and uses of drugs and their effects on the body.</obo:NCIT_P325>
+        <obo:NCIT_P325>Science that deals with the characteristics, effects, and uses of drugs and their interactions with living organisms.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>P</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Pharmacology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C16974</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Pharmacologic</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90002"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16975 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16975">
+        <rdfs:label>Clinical Pharmacology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:NCIT_P325>Science that deals with the characteristics, effects, properties, reactions, and uses of drugs, particularly their therapeutic value in humans, including their toxicology, safety, pharmacodynamics, and pharmacokinetics (ADME).</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Clinical Pharmacology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C0031332</obo:NCIT_P207>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_P366>Clinical_Pharmacology</obo:NCIT_P366>
+        <obo:NCIT_P108>Clinical Pharmacology</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>clinical pharmacology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C16975</obo:NCIT_NHC0>
+        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
+        <obo:IAO_0000115>The branch of pharmacology that studies the effectiveness and safety of drug treatment in humans.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16976 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16976">
+        <rdfs:label>Pharmaceutics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <oboInOwl:hasExactSynonym>Pharmacy</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C0031336</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>Pharmaceutics</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_NHC0>C16976</obo:NCIT_NHC0>
+        <obo:NCIT_P108>Pharmaceutics</obo:NCIT_P108>
+        <obo:IAO_0000115>The science of preparing and dispensing drugs.</obo:IAO_0000115>
+        <obo:NCIT_P366>Pharmaceutics</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Pharmaceutical</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17036">
+        <rdfs:label>Psychopharmacology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <oboInOwl:hasExactSynonym>Psychopharmacology</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The science concerned with drug action and its effect on cognition and behavior</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Psychopharmacology / Toxicology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Pharmacology-Psychopharmacology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Psychopharmacology</obo:NCIT_P108>
+        <obo:NCIT_P366>Psychopharmacology</obo:NCIT_P366>
+        <obo:NCIT_NHC0>C17036</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_P207>C0033929</obo:NCIT_P207>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17206">
+        <rdfs:label>Toxicology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <oboInOwl:hasExactSynonym>toxicology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TOX</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P325>Toxicology is the study of the adverse effects of chemical, physical or biological agents on people, animals, and the environment.</obo:NCIT_P325>
+        <obo:NCIT_P366>Toxicology</obo:NCIT_P366>
+        <obo:NCIT_P108>Toxicology</obo:NCIT_P108>
+        <obo:NCIT_P325>The study of poisons, including the source, effect, and treatment of poisoning. It is a branch of pharmacology (the study of drugs).</obo:NCIT_P325>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_NHC0>C17206</obo:NCIT_NHC0>
+        <obo:IAO_0000115>Toxicology is the branch of pharmacology that deals with the nature and effects and treatments of poisons.</obo:IAO_0000115>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Toxicology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C0040541</obo:NCIT_P207>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90002"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17603">
+        <rdfs:label>Environmental Toxicology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17206"/>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_NHC0>C17603</obo:NCIT_NHC0>
+        <obo:NCIT_P108>Environmental Toxicology</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Environmental Toxicology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C0178621</obo:NCIT_P207>
+        <obo:NCIT_P366>Environmental_Toxicology</obo:NCIT_P366>
+        <obo:IAO_0000115>A branch of toxicology concerned with the sources, transformations and effects on health of natural and synthetic chemicals that are present in the environment.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18079">
+        <rdfs:label>Cardiovascular Pharmacology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <oboInOwl:hasExactSynonym>CARDIOVASCULAR PHARMACOLOGY</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cardiovascular Pharmacology</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Cardiovascular Pharmacology; the study of the effects of drugs upon the heart or circulatory system</obo:IAO_0000115>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>The study of the effects of drugs upon the heart or circulatory system.</obo:NCIT_P325>
+        <obo:NCIT_P207>C0596271</obo:NCIT_P207>
+        <obo:NCIT_NHC0>C18079</obo:NCIT_NHC0>
+        <obo:NCIT_P108>Cardiovascular Pharmacology</obo:NCIT_P108>
+        <obo:NCIT_P366>Cardiovascular_Pharmacology</obo:NCIT_P366>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90003"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18222 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18222">
+        <rdfs:label>Pharmacology and Toxicology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:NCIT_P108>Pharmacology and Toxicology</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C18222</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_P366>Pharmacology_and_Toxicology</obo:NCIT_P366>
+        <obo:IAO_0000115>The science concerned with drugs together with the science concerned with the detection, chemical composition, and pharmacologic action of toxic substances or poisons and the treatment and prevention of toxic manifestations.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Pharmacology and Toxicology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P207>C0678735</obo:NCIT_P207>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18610">
+        <rdfs:label>Pharmacology, Other</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:NCIT_P108>Pharmacology, Other</obo:NCIT_P108>
+        <obo:NCIT_P366>Pharmacology_Other</obo:NCIT_P366>
+        <obo:NCIT_P207>C1519036</obo:NCIT_P207>
+        <obo:NCIT_P106>Classification</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Pharmacology, Other</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C18610</obo:NCIT_NHC0>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18727">
+        <rdfs:label>Cyclic Nucleotide Pharmacology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18936"/>
+        <obo:NCIT_P108>Cyclic Nucleotide Pharmacology</obo:NCIT_P108>
+        <obo:IAO_0000115>The science concerned with the chemistry, actions, and uses of cyclic nucleoside monophosphates.</obo:IAO_0000115>
+        <obo:NCIT_P366>Cyclic_Nucleotide_Pharmacology</obo:NCIT_P366>
+        <obo:NCIT_P207>C1511575</obo:NCIT_P207>
+        <obo:NCIT_NHC0>C18727</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Cyclic Nucleotide Pharmacology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18809 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18809">
+        <rdfs:label>Genetic Toxicology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17206"/>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>GENTOX</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Genetic Toxicology</obo:NCIT_P108>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_P325>The branch of toxicology that deals with adverse effects of chemical, physical or biological agents on genetic material.</obo:NCIT_P325>
+        <obo:IAO_0000115>Toxicology focusing on the effects of drugs on genetics material and the generation of mutations and cancer.</obo:IAO_0000115>
+        <obo:NCIT_P207>C1517515</obo:NCIT_P207>
+        <obo:NCIT_P366>Genetic_Toxicology</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Genetic Toxicology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C18809</obo:NCIT_NHC0>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90002"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18846 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18846">
+        <rdfs:label>Immunotoxicology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17206"/>
+        <obo:NCIT_P108>Immunotoxicology</obo:NCIT_P108>
+        <obo:NCIT_P207>C1512677</obo:NCIT_P207>
+        <obo:NCIT_P366>Immunotoxicology</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Immunotoxicology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_NHC0>C18846</obo:NCIT_NHC0>
+        <obo:IAO_0000115>The branch of toxicology focusing on the effects of poisons on the immune system.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18853 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18853">
+        <rdfs:label>Inhalation Toxicology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17206"/>
+        <obo:NCIT_NHC0>C18853</obo:NCIT_NHC0>
+        <obo:NCIT_P366>Inhalation_Toxicology</obo:NCIT_P366>
+        <obo:NCIT_P207>C1512771</obo:NCIT_P207>
+        <obo:IAO_0000115>The branch of toxicology focusing on the health effects of inhaled poisons.</obo:IAO_0000115>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Inhalation Toxicology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Inhalation Toxicology</obo:NCIT_P108>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18886 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18886">
+        <rdfs:label>Molecular Receptor Pharmacology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C20634"/>
+        <oboInOwl:hasExactSynonym>Molecular Receptor Pharmacology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366>Molecular_Receptor_Pharmacology</obo:NCIT_P366>
+        <obo:IAO_0000115>The branch of pharmacology that tries to understand drug effects by understanding the way that receptors interact with proteins and other molecules in signal transduction.</obo:IAO_0000115>
+        <obo:NCIT_P207>C1513401</obo:NCIT_P207>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_P108>Molecular Receptor Pharmacology</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C18886</obo:NCIT_NHC0>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18934 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18934">
+        <rdfs:label>Pesticide Toxicology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17206"/>
+        <obo:NCIT_P366>Pesticide_Toxicology</obo:NCIT_P366>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_NHC0>C18934</obo:NCIT_NHC0>
+        <obo:IAO_0000115>The toxicology of pesticides</obo:IAO_0000115>
+        <obo:NCIT_P207>C1519023</obo:NCIT_P207>
+        <obo:NCIT_P108>Pesticide Toxicology</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Pesticide Toxicology</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18936 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18936">
+        <rdfs:label>Pharmacology, Biologicals</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:NCIT_P108>Pharmacology, Biologicals</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C18936</obo:NCIT_NHC0>
+        <obo:NCIT_P207>C1519035</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>Pharmacology, Biologicals</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:IAO_0000115>The pharmacology of biologics.</obo:IAO_0000115>
+        <obo:NCIT_P366>Pharmacology_Biologicals</obo:NCIT_P366>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18937 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18937">
+        <rdfs:label>Pharmacology-Drug Structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C20634"/>
+        <oboInOwl:hasExactSynonym>Pharmacology-Drug Structure</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The relation of a drug structure to its activity.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C18937</obo:NCIT_NHC0>
+        <obo:NCIT_P366>Pharmacology-Drug_Structure</obo:NCIT_P366>
+        <obo:NCIT_P106>Functional Concept</obo:NCIT_P106>
+        <obo:NCIT_P207>C1519034</obo:NCIT_P207>
+        <obo:NCIT_P108>Pharmacology-Drug Structure</obo:NCIT_P108>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18961 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18961">
+        <rdfs:label>Prostaglandin Pharmacology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18936"/>
+        <obo:NCIT_NHC0>C18961</obo:NCIT_NHC0>
+        <obo:NCIT_P366>Prostaglandin_Pharmacology</obo:NCIT_P366>
+        <obo:NCIT_P207>C1514502</obo:NCIT_P207>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_P108>Prostaglandin Pharmacology</obo:NCIT_P108>
+        <obo:IAO_0000115>The branch of pharmacology concerned with the chemistry, actions, and uses of prostaglandins.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Prostaglandin Pharmacology</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18976 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18976">
+        <rdfs:label>Pulmonary Pharmacology and Toxicology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18222"/>
+        <obo:IAO_0000115>A branch of pharmacology concerned with the effect of drugs on the lungs with an emphasis on the toxic effects of drugs on the lungs.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Pulmonary Pharmacology and Toxicology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Pulmonary Pharmacology/Toxicology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Pulmonary Pharmacology and Toxicology</obo:NCIT_P108>
+        <obo:NCIT_P366>Pulmonary_Pharmacology_Toxicology</obo:NCIT_P366>
+        <obo:NCIT_P207>C1514605</obo:NCIT_P207>
+        <obo:NCIT_NHC0>C18976</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18996 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18996">
+        <rdfs:label>Renal Pharmacology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:IAO_0000115>The science concerned with drugs and their actions and uses in kidney biology and the treatment of kidney disease.</obo:IAO_0000115>
+        <obo:NCIT_P207>C0596818</obo:NCIT_P207>
+        <obo:NCIT_P108>Renal Pharmacology</obo:NCIT_P108>
+        <obo:NCIT_P325>The science concerned with drugs and their actions and uses in kidney biology and the treatment of kidney disease. (NCI)</obo:NCIT_P325>
+        <obo:NCIT_NHC0>C18996</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>RENAL PHARMACOLOGY</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Renal Pharmacology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366>Renal_Pharmacology</obo:NCIT_P366>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90003"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19070">
+        <rdfs:label>Analytical Toxicology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17206"/>
+        <obo:NCIT_P366>Analytical_Toxicology</obo:NCIT_P366>
+        <obo:NCIT_P207>C1515959</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>Analytical Toxicology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:IAO_0000115>A quantitative analysis of a toxic substance.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C19070</obo:NCIT_NHC0>
+        <obo:NCIT_P108>Analytical Toxicology</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Toxicology, Analytical</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19071">
+        <rdfs:label>Toxicology, Antidotes/Treatment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17206"/>
+        <obo:NCIT_P108>Toxicology, Antidotes/Treatment</obo:NCIT_P108>
+        <obo:IAO_0000115>The treatment or medication that can be administered to a person who has been exposed to a toxic substance</obo:IAO_0000115>
+        <obo:NCIT_P366>Toxicology_Antidotes_Treatment</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Toxicology, Antidotes/Treatment</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C19071</obo:NCIT_NHC0>
+        <obo:NCIT_P207>C1519565</obo:NCIT_P207>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19072">
+        <rdfs:label>Toxicology, Biologicals</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17206"/>
+        <obo:NCIT_P108>Toxicology, Biologicals</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Toxicology, Biologicals</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C19072</obo:NCIT_NHC0>
+        <obo:IAO_0000115>The study of the toxicology of biologics.</obo:IAO_0000115>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_P207>C1519566</obo:NCIT_P207>
+        <obo:NCIT_P366>Toxicology_Biologicals</obo:NCIT_P366>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19073">
+        <rdfs:label>Toxicology, Non-Drug</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17206"/>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_NHC0>C19073</obo:NCIT_NHC0>
+        <obo:IAO_0000115>The toxicology of compounds other than those used for therapy.</obo:IAO_0000115>
+        <obo:NCIT_P207>C1519567</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>Toxicology, Non-Drug</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Toxicology, Non-Drug</obo:NCIT_P108>
+        <obo:NCIT_P366>Toxicology_Non-Drug</obo:NCIT_P366>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19454 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19454">
+        <rdfs:label>Toxicology, Other</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17206"/>
+        <obo:IAO_0000115>This term is used as a form filler when there is no appropriate Toxicology term available.</obo:IAO_0000115>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_P108>Toxicology, Other</obo:NCIT_P108>
+        <obo:NCIT_P207>C1519568</obo:NCIT_P207>
+        <obo:NCIT_P366>Toxicology_Other</obo:NCIT_P366>
+        <obo:NCIT_NHC0>C19454</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym>Toxicology, Other</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19571 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19571">
+        <rdfs:label>Molecular Toxicology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17206"/>
+        <obo:NCIT_P108>Molecular Toxicology</obo:NCIT_P108>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:IAO_0000115>The branch of toxicology that tries to understand the health effects of poisons by understanding the way that genes, proteins, and molecules interact.</obo:IAO_0000115>
+        <obo:NCIT_P207>C1513405</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>Molecular Toxicology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C19571</obo:NCIT_NHC0>
+        <obo:NCIT_P366>Molecular_Toxicology</obo:NCIT_P366>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C19615 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19615">
+        <rdfs:label>Neuropharmacology and Toxicology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18222"/>
+        <obo:NCIT_NHC0>C19615</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Neuropharmacology and Toxicology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366>Neuropharmacology_and_Toxicology</obo:NCIT_P366>
+        <obo:NCIT_P207>C1518297</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>Neuropharmacology / Toxicology</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Research into the mechanisms of drug action and cellular neurotoxicity in brain cells.</obo:IAO_0000115>
+        <obo:NCIT_P108>Neuropharmacology and Toxicology</obo:NCIT_P108>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20050">
+        <rdfs:label>Pharmacogenomics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:NCIT_P106>Occupation or Discipline</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>pharmacogenomics</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The investigation of variations of DNA and RNA characteristics as related to drug response.</obo:IAO_0000115>
+        <obo:NCIT_P325>Science that examines inherited variations in genes that dictate drug response and explores the ways such variations can be used to predict whether a person will respond favorably, adversely, or not at all to an investigational product.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Pharmacogenomics</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
+        <obo:NCIT_P325>The study of how a person&#39;s genes affect the way he or she responds to drugs. Pharmacogenomics is being used to learn ahead of time what the best drug or the best dose of a drug will be for a person.</obo:NCIT_P325>
+        <obo:NCIT_NHC0>C20050</obo:NCIT_NHC0>
+        <obo:NCIT_P207>C1138555</obo:NCIT_P207>
+        <obo:NCIT_P107>Pharmacogenomics</obo:NCIT_P107>
+        <obo:NCIT_P98>The term is applicable to activities such as drug discovery, drug development, and clinical practice. Drug response includes drug disposition (pharmacokinetics, PK) and drug effect (pharmacodynamics, PD). The term drug should be considered synonymous with investigational (medicinal) product, medicinal product and pharmaceutical (including vaccines and other biological products).The definition of does not include other disciplines such as proteomics and metabonomics.</obo:NCIT_P98>
+        <obo:NCIT_P108>Pharmacogenomics</obo:NCIT_P108>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P366>Pharmacogenomics</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>PGx</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142799"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20634">
+        <rdfs:label>Biochemical Pharmacology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:IAO_0000115>A branch of pharmacology that studies the biochemical mechanisms responsible for the actions of pharmacologic substances.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Biochemical Pharmacology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0>C20634</obo:NCIT_NHC0>
+        <obo:NCIT_P108>Biochemical Pharmacology</obo:NCIT_P108>
+        <obo:NCIT_P366>Biochemical_Pharmacology</obo:NCIT_P366>
+        <obo:NCIT_P207>C1511129</obo:NCIT_P207>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C42738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C42738">
+        <rdfs:label>Biopharmaceutics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:NCIT_P108>Biopharmaceutics</obo:NCIT_P108>
+        <obo:NCIT_P207>C0005552</obo:NCIT_P207>
+        <obo:NCIT_NHC0>C42738</obo:NCIT_NHC0>
+        <obo:IAO_0000115>The study of the physical and chemical properties of a drug and its dosage forms and study of the influence of formulation factors of the agent on the therapeutic activity of a drug product.</obo:IAO_0000115>
+        <obo:NCIT_P366>Biopharmaceutics</obo:NCIT_P366>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Biopharmaceutics</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C90370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C90370">
+        <rdfs:label>Central Nervous System Pharmacology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:NCIT_NHC0>C90370</obo:NCIT_NHC0>
+        <obo:NCIT_P207>C2983593</obo:NCIT_P207>
+        <obo:NCIT_P108>Central Nervous System Pharmacology</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Central Nervous System Pharmacology</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The branch of pharmacology that deals with the central nervous system.</obo:IAO_0000115>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>CNS PHARMACOLOGY</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>The branch of pharmacology that deals with the central nervous system. (NCI)</obo:NCIT_P325>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90003"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C90388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C90388">
+        <rdfs:label>Gastrointestinal Pharmacology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:IAO_0000115>The branch of pharmacology that deals with the gastrointestinal system.</obo:IAO_0000115>
+        <obo:NCIT_P108>Gastrointestinal Pharmacology</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Gastrointestinal Pharmacology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>GASTROINTESTINAL PHARMACOLOGY</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P207>C0596603</obo:NCIT_P207>
+        <obo:NCIT_NHC0>C90388</obo:NCIT_NHC0>
+        <obo:NCIT_P325>The branch of pharmacology that deals with the gastrointestinal system. (NCI)</obo:NCIT_P325>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90003"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C90448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C90448">
+        <rdfs:label>Reproductive and Developmental Toxicology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17206"/>
+        <obo:NCIT_P325>The branch of toxicology that deals with adverse effects of chemical, physical or biological agents on reproduction and development.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>REPRO</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Reproductive and Developmental Toxicology</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C90448</obo:NCIT_NHC0>
+        <obo:NCIT_P207>C2983657</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>Reproductive and Developmental Toxicology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>Developmental and Reproductive Toxicology</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The branch of pharmacology that deals with the nature and effects of poisonous substances on reproduction and development.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>DART</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90002"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C90449 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C90449">
+        <rdfs:label>Respiratory Pharmacology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:NCIT_NHC0>C90449</obo:NCIT_NHC0>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>The branch of pharmacology that deals with the respiratory system. (NCI)</obo:NCIT_P325>
+        <obo:NCIT_P108>Respiratory Pharmacology</obo:NCIT_P108>
+        <obo:IAO_0000115>The branch of pharmacology that deals with the respiratory system.</obo:IAO_0000115>
+        <obo:NCIT_P207>C0597399</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>RESPIRATORY PHARMACOLOGY</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Respiratory Pharmacology</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90003"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C90452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C90452">
+        <rdfs:label>Safety Pharmacology</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym>Safety Pharmacology</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym>SP</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Safety Pharmacology</obo:NCIT_P108>
+        <obo:NCIT_NHC0>C90452</obo:NCIT_NHC0>
+        <obo:NCIT_P207>C2983660</obo:NCIT_P207>
+        <obo:IAO_0000115>A branch of pharmacology that investigates the potential undesirable pharmacodynamic effects of a substance on physiological functions in relation to exposure in the therapeutic range and above. (safetypharmacology.org)</obo:IAO_0000115>
+        <obo:NCIT_P325>A branch of pharmacology that investigates the potential undesirable pharmacodynamic effects of a substance on physiological functions in relation to exposure in the therapeutic range and above. (safetypharmacology.org) (NCI)</obo:NCIT_P325>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90002"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C90478 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C90478">
+        <rdfs:label>Toxicokinetics</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16974"/>
+        <obo:NCIT_NHC0>C90478</obo:NCIT_NHC0>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P207>C0282299</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>TOXICOKINETICS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Toxicokinetics</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108>Toxicokinetics</obo:NCIT_P108>
+        <obo:NCIT_P325>Evaluation of the absorption, distribution, metabolism and excretion of a substance in relation to its toxicity in an animal.</obo:NCIT_P325>
+        <obo:NCIT_P106>Biomedical Occupation or Discipline</obo:NCIT_P106>
+        <obo:IAO_0000115>The branch of pharmacology that deals with the rate at which a substance will enter the body and what effects that substance will have on the body.</obo:IAO_0000115>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90003"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+
