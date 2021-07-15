@@ -35,6 +35,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/PW_import.owl."/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/PW_import2.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/SYMP_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/VO_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/VO_indiviudal_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/cido_import1.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/cido_import2.owl"/>
@@ -1042,38 +1043,6 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000104">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0005144 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005144">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0005157 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005157">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0005158 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005158">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/VO_0005172 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VO_0005172">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
     </rdf:Description>
     
 
