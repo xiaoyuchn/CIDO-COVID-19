@@ -1,0 +1,1499 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/cido-covid-19.owl#"
+     xml:base="http://purl.obolibrary.org/obo/cido-covid-19.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:vto="http://purl.obolibrary.org/obo/vto#"
+     xmlns:www="http://www.referent-tracking.com/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:core="http://purl.obolibrary.org/obo/core#"
+     xmlns:doap="http://usefulinc.com/ns/doap#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:NDF-RT="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#"
+     xmlns:uberon="http://purl.obolibrary.org/obo/uberon#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:taxslim="http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim#"
+     xmlns:metadata="http://data.bioontology.org/metadata/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/cido-covid-19-base.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19(core).owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/BFO_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/CHEBI_indiviudal_import2.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/MONDO_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/NCIT_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/NCIT_import.owl."/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/NCIT_individual_import3.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/OAE_import.owl."/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/OGMS_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/PW_import.owl."/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/PW_import2.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/SYMP_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/VO_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/VO_indiviudal_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19/external/cido_import1.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/your_ontology/external/CHEBI_individual_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/your_ontology/external/DRON_individual_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/your_ontology/external/FOODON_individual_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/your_ontology/external/IDOMAL_individuals_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/your_ontology/external/NCIT_import4.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/your_ontology/external/NCIT_individual_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/your_ontology/external/NCIT_individual_import2.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/your_ontology/external/VTO_individual_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/your_ontology/external/XCO_individual_import.owl"/>
+        <dc:creator>Yu Xiao</dc:creator>
+        <dc:description>CIDO-COVID-19 is ontology of COVID-19 covering disease, diagnosis, etiology, virus, transmission, symptoms, treatment, drugs, prevention, etc. CIDO-COVID-19 enriches and improves on the existing concepts of CIDO, especially in the diagnosis and treatment of COVID-19. CIDO-COVID-19 aims to provide a more comprehensive knowledge base for medical practitioners and researchers on COVID-19 and to lay the groundwork for further applications based on CIDO-COVID-19.CIDO-COVID-19 adheres to the ontology construction rules recommended by OBO and BFO.</dc:description>
+        <dc:title>CIDO-COVID-19:Ontology of COVID-19</dc:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/source"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000012 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CIDO_0000012"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002410 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002410"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002452 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002452"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://dicom.nema.org/resources/ontology/DCM/122138 -->
+
+    <owl:Class rdf:about="http://dicom.nema.org/resources/ontology/DCM/122138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#treatment_of_severe_COVID-19_and_critical_COVID-19"/>
+        <obo:IAO_0000115>Technique (device or procedure) of support for patient circulatory system; hemodynamic support.</obo:IAO_0000115>
+        <dc:source>DCM</dc:source>
+        <oboInOwl:id>DCM:122138</oboInOwl:id>
+        <rdfs:label xml:lang="en">Circulatory Support</rdfs:label>
+        <rdfs:label>循环支持</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147496 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147496">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/LNC/LA21146-8 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/LNC/LA21146-8">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#treatment_of_severe_COVID-19_and_critical_COVID-19"/>
+        <dc:source>LOINC</dc:source>
+        <oboInOwl:id>LNC:LA21146-8</oboInOwl:id>
+        <rdfs:label xml:lang="en">Respiratory support (e.g., ventilation, tracheotomy)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MDDB/04660 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MDDB/04660">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <dc:source>MDDB</dc:source>
+        <oboInOwl:id>MDDB:04660</oboInOwl:id>
+        <rdfs:label xml:lang="en">Protein Powder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/C000594497 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C000594497">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <dc:source>MESH</dc:source>
+        <oboInOwl:id>MESH:C000594497</oboInOwl:id>
+        <rdfs:label xml:lang="en">xingnaojing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/C000596355 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C000596355">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <dc:source>MESH</dc:source>
+        <oboInOwl:id>MESH:C000596355</oboInOwl:id>
+        <rdfs:label xml:lang="en">reduning</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/C000612830 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C000612830">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <dc:source>MESH</dc:source>
+        <oboInOwl:id>MESH:C000612830</oboInOwl:id>
+        <rdfs:label xml:lang="en">shufeng jiedu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/C000620716 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C000620716">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000172"/>
+        <dc:source>MESH</dc:source>
+        <oboInOwl:id>MESH:C000620716</oboInOwl:id>
+        <rdfs:label xml:lang="en">Angong Niuhuang Pill</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/C000711727 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C000711727">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <NDF-RT:MeSH_CUI>C5401160</NDF-RT:MeSH_CUI>
+        <obo:IAO_0000412 rdf:resource="http://purl.bioontology.org/ontology/MESH"/>
+        <rdfs:label xml:lang="en">TMC-310911</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/C032628 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C032628">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <NDF-RT:MeSH_CUI>C5433389</NDF-RT:MeSH_CUI>
+        <obo:IAO_0000412 rdf:resource="http://purl.bioontology.org/ontology/MESH"/>
+        <rdfs:label xml:lang="en">tin protoporphyrin IX</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/C492793 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C492793">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <dc:source>MESH</dc:source>
+        <oboInOwl:id>MESH:C492793</oboInOwl:id>
+        <rdfs:label xml:lang="en">Shen-Fu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/C516480 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C516480">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <dc:source>MESH</dc:source>
+        <oboInOwl:id>MESH:C516480</oboInOwl:id>
+        <rdfs:label xml:lang="en">Huoxiang-zhengqi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/C539416 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C539416">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <NDF-RT:MeSH_CUI>C2714695</NDF-RT:MeSH_CUI>
+        <obo:IAO_0000412 rdf:resource="http://purl.bioontology.org/ontology/MESH"/>
+        <rdfs:label xml:lang="en">triazavirin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/C540817 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C540817">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <dc:source>MESH</dc:source>
+        <oboInOwl:id>MESH:C540817</oboInOwl:id>
+        <rdfs:label xml:lang="en">tanreqing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/C540945 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C540945">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <NDF-RT:MeSH_CUI>C3179514</NDF-RT:MeSH_CUI>
+        <obo:IAO_0000412 rdf:resource="http://purl.bioontology.org/ontology/MESH"/>
+        <rdfs:label xml:lang="en">azvudine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/C549376 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C549376">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <dc:source>MESH</dc:source>
+        <oboInOwl:id>MESH:C549376</oboInOwl:id>
+        <rdfs:label xml:lang="en">Xuebijing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/C560312 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C560312">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <NDF-RT:MeSH_CUI>C3178195</NDF-RT:MeSH_CUI>
+        <obo:IAO_0000412 rdf:resource="http://purl.bioontology.org/ontology/MESH"/>
+        <rdfs:label xml:lang="en">Pam2CSK4 lipopeptide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D000086642 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D000086642">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000531"/>
+        <obo:IAO_0000115>Solitary, chiefly burrowing and nocturnal mammals of the order Pholidota. They have bodies, tails and heads encased in sharp scales, which protect them when rolled up into a ball when threatened. Also called scaly anteaters, pangolins are myrmecophagous mainly eating ants and termites and are distributed in the warmer parts of the Asia and the Africa continents. Chinese pangolins are potential intermediate DISEASE RESERVOIR of COVID-19 virus, SARS-CoV-2.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.bioontology.org/ontology/MESH.ttl"/>
+        <oboInOwl:id>MESH:D000086642</oboInOwl:id>
+        <rdfs:label xml:lang="en">pangolin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/182764009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/182764009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#treatment_of_severe_COVID-19_and_critical_COVID-19"/>
+        <dc:source>SNOMEDCT</dc:source>
+        <oboInOwl:id>SNOMEDCT:182764009</oboInOwl:id>
+        <rdfs:label xml:lang="en">Anticoagulant therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/243127001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/243127001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000186"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2323"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:source>SNOMEDCT</dc:source>
+        <oboInOwl:id>SNOMEDCT:243127001</oboInOwl:id>
+        <rdfs:label xml:lang="en">Glucocorticoid hormone therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/336602003 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/336602003">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/LNC/LA21146-8"/>
+        <dc:source>SNOMEDCT</dc:source>
+        <oboInOwl:id>SNOMEDCT:336602003</oboInOwl:id>
+        <rdfs:label xml:lang="en">Oxygen mask</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/336623009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/336623009">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/LNC/LA21146-8"/>
+        <dc:source>SNOMEDCT</dc:source>
+        <oboInOwl:id>SNOMEDCT:336623009</oboInOwl:id>
+        <rdfs:label xml:lang="en">Oxygen nasal cannula</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/386509000 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/386509000">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/LNC/LA21146-8"/>
+        <dc:source>SNOMEDCT</dc:source>
+        <oboInOwl:id>SNOMEDCT:386509000</oboInOwl:id>
+        <rdfs:label xml:lang="en">Airway management</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/428311008 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/428311008">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/LNC/LA21146-8"/>
+        <dc:source>SNOMEDCT</dc:source>
+        <oboInOwl:id>SNOMEDCT:428311008</oboInOwl:id>
+        <rdfs:label xml:lang="en">Noninvasive ventilation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/724164001 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/724164001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000186"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84217"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:source>SNOMEDCT</dc:source>
+        <oboInOwl:id>SNOMEDCT:724164001</oboInOwl:id>
+        <rdfs:label xml:lang="en">Tocilizumab therapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.jp/bio/4/id/200906036792742085 -->
+
+    <owl:Class rdf:about="http://purl.jp/bio/4/id/200906036792742085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#treatment_of_severe_COVID-19_and_critical_COVID-19"/>
+        <dc:source>IOBC</dc:source>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200906036792742085</oboInOwl:id>
+        <rdfs:label xml:lang="en">blood purification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_101381 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_101381">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_113532 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_113532">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_134722 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_134722">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_134730 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_134730">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_135632 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_135632">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_145994 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_145994">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2955 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_2955">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_31890 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_31890">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35717">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36047 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_36047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3638 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_3638">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_3647 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_3647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5801 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_5801">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6078 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_6078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_7497 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_7497">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_7956 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_7956">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_80287 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_80287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_94807 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_94807">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000168 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000172"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000181"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000182"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CIDO_0000186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CIDO_0000186"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080600"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00019607 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00019607">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00754325 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00754325">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000172"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411242 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000531"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03411295 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FOODON_03411295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000531"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDOMAL_0000604 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDOMAL_0000604">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000531"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDOMAL_0000993 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDOMAL_0000993">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000531"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0000596"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0100140 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0100140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080600"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0100141 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0100141">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0080600"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002452"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000354"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002452"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000598"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002452"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000613"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080600"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0100142 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0100142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080600"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0100143 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0100143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080600"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70909"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002452"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000450"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002452"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000643"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002452"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000724"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_2697049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C123775 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C123775">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C125903 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C125903">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C126400 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C126400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#treatment_of_severe_COVID-19_and_critical_COVID-19"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C127012 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C127012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C137824 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C137824">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C147125 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C147125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C152740 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C152740">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C152799 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C152799">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C156270 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C156270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16295 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C16295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16601 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C16601">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C166892 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C166892">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C171507 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C171507">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/LNC/LA21146-8"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C172613 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C172613">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C172616 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C172616">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C172633 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C172633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C172638 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C172638">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C173054 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C173054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/VO_0004908"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C173568 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C173568">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C173742 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C173742">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C173743 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C173743">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C173977 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C173977">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C175229 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C175229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C177057 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C177057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C177075 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C177075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C177093 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C177093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2039 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C2039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20494 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C20494">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20495 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C20495">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2096 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C2096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2323 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C2323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C263 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C287 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C28844 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C28844">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C29696 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C29696">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C385 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C385">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C39772 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C39772">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_preventive_intervention"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C422 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C422">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C47445 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C47445">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C561 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C561">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C647 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C65364 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C65364">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C70909 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C70909">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/LNC/LA21146-8"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C74202 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C74202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C81605 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C81605">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C83782 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C83782">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C84217 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C84217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C85447 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C85447">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C91011 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C91011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C94301 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C94301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C95222 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C95222">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000104 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000117 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000430"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VTO_9005146 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/VTO_9005146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/XCO_0000156 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/XCO_0000156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000172"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#Active_nucleic_acid_testing_with_a_history_of_contact -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#Active_nucleic_acid_testing_with_a_history_of_contact">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_preventive_intervention"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <terms:source>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</terms:source>
+        <rdfs:label xml:lang="en">Active nucleic acid testing with a history of contact</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#Adequate_rest -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#Adequate_rest">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_preventive_intervention"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <terms:source>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</terms:source>
+        <rdfs:label xml:lang="en">Adequate rest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#Avoid_fatigue -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#Avoid_fatigue">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_preventive_intervention"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <terms:source>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</terms:source>
+        <rdfs:label xml:lang="en">Avoid fatigue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#Balanced_nutrition -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#Balanced_nutrition">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_preventive_intervention"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <terms:source>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</terms:source>
+        <rdfs:label xml:lang="en">Balanced nutrition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_human_immunoglobulin -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_human_immunoglobulin">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <terms:source>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</terms:source>
+        <rdfs:label xml:lang="en">COVID-19 human immunoglobulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_preventive_intervention -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_preventive_intervention">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15843"/>
+        <obo:IAO_0000115>A  COVID-19 preventive intervention is a preventive intervention that prevent COVID-19</obo:IAO_0000115>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">COVID-19 preventive intervention</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#Improve_health_literacy -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#Improve_health_literacy">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_preventive_intervention"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <terms:source>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</terms:source>
+        <rdfs:label xml:lang="en">Improve health literacy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#Keep_indoor_ventilation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#Keep_indoor_ventilation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_preventive_intervention"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <terms:source>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</terms:source>
+        <rdfs:label xml:lang="en">Keep indoor ventilation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#Keep_social_distance -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#Keep_social_distance">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_preventive_intervention"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <terms:source>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</terms:source>
+        <rdfs:label xml:lang="en">Keep social distance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#Lianhua_Qingwen_Capsules -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#Lianhua_Qingwen_Capsules">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000172"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <terms:source>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</terms:source>
+        <rdfs:label xml:lang="en">Lianhua Qingwen Capsules</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#Lianhua_Qingwen_Granules -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#Lianhua_Qingwen_Granules">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000172"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <terms:source>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</terms:source>
+        <rdfs:label xml:lang="en">Lianhua Qingwen Granules</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#Metric_chopsticks -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#Metric_chopsticks">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_preventive_intervention"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <terms:source>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</terms:source>
+        <rdfs:label xml:lang="en">Metric chopsticks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#Scientific_protection -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#Scientific_protection">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_preventive_intervention"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <terms:source>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</terms:source>
+        <rdfs:label xml:lang="en">Scientific protection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#See_a_doctor_in_time_for_fever -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#See_a_doctor_in_time_for_fever">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_preventive_intervention"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <terms:source>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</terms:source>
+        <rdfs:label xml:lang="en">See a doctor in time for fever</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#Wash_your_hands_frequently -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#Wash_your_hands_frequently">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_preventive_intervention"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <terms:source>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</terms:source>
+        <rdfs:label xml:lang="en">Wash your hands frequently</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#Xiyanping_Injection -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#Xiyanping_Injection">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000172"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <terms:source>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</terms:source>
+        <rdfs:label xml:lang="en">Xiyanping Injection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#keep_clean -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#keep_clean">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_preventive_intervention"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <terms:source>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</terms:source>
+        <rdfs:label xml:lang="en">keep clean</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#nasal_high-flow_oxygen_therapy_or_non-invasive_ventilation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#nasal_high-flow_oxygen_therapy_or_non-invasive_ventilation">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/LNC/LA21146-8"/>
+        <dc:source>SNOMEDCT</dc:source>
+        <oboInOwl:id>SNOMEDCT:426854004</oboInOwl:id>
+        <rdfs:label xml:lang="en">High flow oxygen nasal cannula</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#treatment_of_severe_COVID-19_and_critical_COVID-19 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#treatment_of_severe_COVID-19_and_critical_COVID-19">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000186"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000012"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0100142"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000012"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0100143"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000186"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <obo:IAO_0000119>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">treatment of severe COVID-19 and critical COVID-19</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#treatment_with_COVID-19_human_immunoglobulin -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#treatment_with_COVID-19_human_immunoglobulin">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000186"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <obo:IAO_0000119>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">treatment with COVID-19 human immunoglobulin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#treatment_with_Xuebijing -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#treatment_with_Xuebijing">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#treatment_of_severe_COVID-19_and_critical_COVID-19"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.bioontology.org/ontology/MESH/C549376"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <obo:IAO_0000119>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">treatment with Xuebijing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/cido-covid-19.owl#wear_mask -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#wear_mask">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/cido-covid-19.owl#COVID-19_preventive_intervention"/>
+        <obo:IAO_0000117>xiaoyu</obo:IAO_0000117>
+        <terms:source>http://www.nhc.gov.cn/yzygj/s7653p/202008/0a7bdf12bd4b46e5bd28ca7f9a7f5e5a/files/a449a3e2e2c94d9a856d5faea2ff0f94.pdf</terms:source>
+        <rdfs:label xml:lang="en">wear mask</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/243127001"/>
+            <rdf:Description rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/724164001"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000181"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CIDO_0000182"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#treatment_of_severe_COVID-19_and_critical_COVID-19"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/cido-covid-19.owl#treatment_with_COVID-19_human_immunoglobulin"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
