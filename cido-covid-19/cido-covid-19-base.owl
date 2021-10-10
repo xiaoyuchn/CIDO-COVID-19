@@ -46,6 +46,7 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/your_ontology/external/FOODON_individual_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/your_ontology/external/IDOMAL_individuals_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/your_ontology/external/NCIT_import4.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/your_ontology/external/NCIT_import5.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/your_ontology/external/NCIT_individual_import.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/your_ontology/external/NCIT_individual_import2.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/your_ontology/external/VTO_individual_import.owl"/>
@@ -146,7 +147,6 @@
         <dc:source>DCM</dc:source>
         <oboInOwl:id>DCM:122138</oboInOwl:id>
         <rdfs:label xml:lang="en">Circulatory Support</rdfs:label>
-        <rdfs:label>循环支持</rdfs:label>
     </owl:Class>
     
 
@@ -732,40 +732,36 @@
     <!-- http://purl.obolibrary.org/obo/MONDO_0100143 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0100143">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0080600"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70909"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002452"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000450"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002452"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000643"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002452"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000724"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0080600"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C70909"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002452"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000450"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002452"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000643"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002452"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000724"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </rdf:Description>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2697049 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
-    </owl:Class>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049"/>
     
 
 
@@ -1149,6 +1145,14 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C85447">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C88213 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C88213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
     </rdf:Description>
     
 
