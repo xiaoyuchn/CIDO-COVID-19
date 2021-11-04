@@ -184,7 +184,7 @@
     <!-- http://purl.bioontology.org/ontology/MESH/C000594497 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C000594497">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/723688009"/>
         <dc:source>MESH</dc:source>
         <oboInOwl:id>MESH:C000594497</oboInOwl:id>
         <rdfs:label xml:lang="en">xingnaojing</rdfs:label>
@@ -195,7 +195,7 @@
     <!-- http://purl.bioontology.org/ontology/MESH/C000596355 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C000596355">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/723688009"/>
         <dc:source>MESH</dc:source>
         <oboInOwl:id>MESH:C000596355</oboInOwl:id>
         <rdfs:label xml:lang="en">reduning</rdfs:label>
@@ -206,7 +206,7 @@
     <!-- http://purl.bioontology.org/ontology/MESH/C000612830 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C000612830">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/723688009"/>
         <dc:source>MESH</dc:source>
         <oboInOwl:id>MESH:C000612830</oboInOwl:id>
         <rdfs:label xml:lang="en">shufeng jiedu</rdfs:label>
@@ -250,7 +250,7 @@
     <!-- http://purl.bioontology.org/ontology/MESH/C492793 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C492793">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/723688009"/>
         <dc:source>MESH</dc:source>
         <oboInOwl:id>MESH:C492793</oboInOwl:id>
         <rdfs:label xml:lang="en">Shen-Fu</rdfs:label>
@@ -261,7 +261,7 @@
     <!-- http://purl.bioontology.org/ontology/MESH/C516480 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C516480">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/723688009"/>
         <dc:source>MESH</dc:source>
         <oboInOwl:id>MESH:C516480</oboInOwl:id>
         <rdfs:label xml:lang="en">Huoxiang-zhengqi</rdfs:label>
@@ -283,7 +283,7 @@
     <!-- http://purl.bioontology.org/ontology/MESH/C540817 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C540817">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/723688009"/>
         <dc:source>MESH</dc:source>
         <oboInOwl:id>MESH:C540817</oboInOwl:id>
         <rdfs:label xml:lang="en">tanreqing</rdfs:label>
@@ -305,7 +305,7 @@
     <!-- http://purl.bioontology.org/ontology/MESH/C549376 -->
 
     <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/C549376">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000169"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/SNOMEDCT/723688009"/>
         <dc:source>MESH</dc:source>
         <oboInOwl:id>MESH:C549376</oboInOwl:id>
         <rdfs:label xml:lang="en">Xuebijing</rdfs:label>
@@ -404,6 +404,17 @@
         <dc:source>SNOMEDCT</dc:source>
         <oboInOwl:id>SNOMEDCT:428311008</oboInOwl:id>
         <rdfs:label xml:lang="en">Noninvasive ventilation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/SNOMEDCT/723688009 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/SNOMEDCT/723688009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CIDO_0000167"/>
+        <dc:source>SNOMEDCT</dc:source>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">723688009</oboInOwl:id>
+        <rdfs:label>Traditional Chinese Medicine</rdfs:label>
     </owl:Class>
     
 
